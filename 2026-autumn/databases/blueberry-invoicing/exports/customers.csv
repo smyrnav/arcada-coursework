@@ -1,0 +1,6 @@
+customer_id,company_name,street_address,postal_code,city,country,email,phone
+1,Smyrna V,Jan-Magnus Janssonin aukio 1,00560,Helsinki,Finland,smyrna.v@example.com,+358 40 100 2001
+2,Nordic Pixel Oy,Mannerheimintie 12 B,00100,Helsinki,Finland,orders@nordicpixel.fi,+358 9 555 0102
+3,Kallio Coffee Lab,Vaasankatu 7,00500,Helsinki,Finland,hello@kalliocoffee.fi,+358 44 555 0103
+4,Espoo Robotics Club ry,Otakaari 24,02150,Espoo,Finland,board@espoorobotics.fi,+358 50 555 0104
+5,Turku Sound & Light Ab,Linnankatu 31,20100,Turku,Finland,info@tsl.fi,+358 2 555 0105
