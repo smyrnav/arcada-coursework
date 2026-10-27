@@ -7,7 +7,7 @@ the same customers → invoices → invoice rows → items model, filled with th
 Invoice Summary report and Invoice Form as SQL queries. The data is exported as CSV and imported into the
 FileMaker file, where the layouts and PDFs are made.
 
-**Quick look:** [Invoice Summary report](reports/invoice_summary.md) · [Invoice Form (invoice 20)](reports/invoice_20.md) · [SQL schema](sql/01_schema.sql) · [Queries](sql/03_queries.sql)
+**Quick look:** [Invoice Summary report](reports/invoice_summary.md) · [All invoices](reports/all_invoices.md) · [Invoice Form (invoice 20)](reports/invoice_20.md) · [SQL schema](sql/01_schema.sql) · [Queries](sql/03_queries.sql)
 
 ## Data model
 
@@ -79,6 +79,7 @@ build.py              builds blueberry.db, exports CSVs, writes reports/
 blueberry.db          the built SQLite database
 exports/*.csv         data for importing into FileMaker (invoices 4–20 only)
 reports/*.md          generated reports
+FILEMAKER_GUIDE.md    step-by-step import into FileMaker
 ```
 
 ## Run it
@@ -92,17 +93,4 @@ Or open `blueberry.db` in [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 ## Importing into FileMaker
 
-In the `.fmp12` file, **File → Import Records → File…**, pick the CSV, then in the field-mapping dialog
-match the columns to the FileMaker fields. Import in this order so the IDs line up:
-
-1. `customers.csv` → Customers (or import just row 1, my own customer)
-2. `items.csv` → Items
-3. `invoices.csv` → Invoices (17 records, numbers 4–20)
-4. `invoice_rows.csv` → Invoice rows
-
-Notes:
-- Untick **"Perform auto-enter options while importing"** so the IDs from the CSV are kept. If FileMaker
-  gives the customer and items different IDs, change `customer_id` / `item_id` in the CSVs to match
-  before importing invoices and rows.
-- Dates are in `D.M.YYYY` format, which is what FileMaker expects on Finnish/Swedish Windows.
-- Don't map calculation fields (row total, payment day, invoice total) — FileMaker computes them.
+The CSVs in `exports/` are imported with **File → Import Records**. Step-by-step instructions: [FILEMAKER_GUIDE.md](FILEMAKER_GUIDE.md).

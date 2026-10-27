@@ -91,6 +91,28 @@ def write_summary_report(con):
     return len(rows), grand
 
 
+def write_all_invoices(con):
+    lines = ["# All invoices with rows", "",
+             "Every invoice with its item rows, in date order.", ""]
+    for h in con.execute(
+            "SELECT s.*, v.customer_id FROM invoice_summary s JOIN invoices v USING (invoice_number)"):
+        lines += [
+            f"## Invoice {h['invoice_number']} — {fi_date(h['invoice_date'])} — {h['status']}",
+            "",
+            f"Customer: **{h['company_name']}** (id {h['customer_id']}) · "
+            f"days to payment {h['days_to_payment']} · payment day {fi_date(h['payment_day'])}",
+            "",
+            "| Item ID | Item name | Amount | Row total |",
+            "|---:|---|---:|---:|",
+        ]
+        for r in con.execute(
+                "SELECT * FROM invoice_row_lines WHERE invoice_number = ? ORDER BY row_id",
+                (h["invoice_number"],)):
+            lines.append(f"| {r['item_id']} | {r['item_name']} | {r['amount']} | {eur(r['row_total'])} |")
+        lines += ["", f"Invoice total: **{eur(h['invoice_total'])}**", ""]
+    (REPORTS / "all_invoices.md").write_text("\n".join(lines), encoding="utf-8")
+
+
 def write_invoice_form(con, number):
     h = con.execute(
         "SELECT v.*, s.payment_day, s.invoice_total, c.* FROM invoices v "
@@ -131,12 +153,13 @@ def main():
     con = build_db()
     counts = export_for_filemaker(con)
     n, grand = write_summary_report(con)
+    write_all_invoices(con)
     write_invoice_form(con, FORM_INVOICE)
     con.close()
     print(f"Built {DB.name}: {n} invoices, grand total {eur(grand)}")
     for name, c in counts.items():
         print(f"  exports/{name}: {c} rows")
-    print(f"  reports/invoice_summary.md, reports/invoice_{FORM_INVOICE}.md")
+    print(f"  reports/invoice_summary.md, reports/all_invoices.md, reports/invoice_{FORM_INVOICE}.md")
 
 
 if __name__ == "__main__":
