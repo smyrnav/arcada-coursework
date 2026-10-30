@@ -4,8 +4,28 @@ Databases course final project, Arcada 2026.
 
 The FileMaker assignment (`invoicing_final_assignment_2026.fmp12`) rebuilt as a plain **SQL (SQLite)** database:
 the same customers → invoices → invoice rows → items model, filled with the assignment data, plus the
-Invoice Summary report and Invoice Form as SQL queries. The data is exported as CSV and imported into the
-FileMaker file, where the layouts and PDFs are made.
+Invoice Summary report and Invoice Form as SQL queries. The data is also exported as CSV, ready for importing
+into the FileMaker file.
+
+## Status
+
+| Part | State |
+|---|---|
+| Data model, data, Invoice Summary and Invoice Form as SQL | **Done**, in this repo |
+| CSV exports for FileMaker | **Done**, not yet imported |
+| FileMaker work: data entry in the `.fmp12`, Status field on the Invoice Summary layout, Invoice Form layout | **Not done** |
+| The two FileMaker PDFs and the edited `.fmp12` | **Not done** |
+
+FileMaker Pro has no Linux version, so the FileMaker part needs a Windows or Mac computer.
+Invoices 1–3 here are placeholders: the contents of the three ready-made invoices in the `.fmp12` file could not be read outside FileMaker.
+
+## Screenshots
+
+| Database structure in DB Browser for SQLite | Invoice Summary report |
+|---|---|
+| ![Database structure](screenshots/db_structure.png) | ![Invoice Summary](screenshots/invoice_summary.png) |
+
+Also: [Invoice Form, invoice 20](screenshots/invoice_20.png)
 
 **Quick look:** [Invoice Summary report](reports/invoice_summary.md) · [All invoices](reports/all_invoices.md) · [Invoice Form (invoice 20)](reports/invoice_20.md) · [SQL schema](sql/01_schema.sql) · [Queries](sql/03_queries.sql)
 
@@ -79,6 +99,7 @@ build.py              builds blueberry.db, exports CSVs, writes reports/
 blueberry.db          the built SQLite database
 exports/*.csv         data for importing into FileMaker (invoices 4–20 only)
 reports/*.md          generated reports
+screenshots/          screenshots of the database and reports
 FILEMAKER_GUIDE.md    step-by-step import into FileMaker
 ```
 
