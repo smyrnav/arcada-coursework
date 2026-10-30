@@ -12,6 +12,7 @@ into the FileMaker file.
 | Part | State |
 |---|---|
 | Data model, data, Invoice Summary and Invoice Form as SQL | **Done**, in this repo |
+| [Invoice](reports/Invoice_SmyrnaV_SQL.pdf) and [Invoice Summary](reports/Summary_report_SmyrnaV_SQL.pdf) PDFs generated from SQLite (`make_pdfs.py`) | **Done**, not FileMaker exports |
 | CSV exports for FileMaker | **Done**, not yet imported |
 | FileMaker work: data entry in the `.fmp12`, Status field on the Invoice Summary layout, Invoice Form layout | **Not done** |
 | The two FileMaker PDFs and the edited `.fmp12` | **Not done** |
@@ -96,6 +97,7 @@ sql/01_schema.sql     tables, constraints, views
 sql/02_seed.sql       the data (customers, items, 20 invoices, invoice rows)
 sql/03_queries.sql    reports: summary, grand total, per status, invoice form, top items, overdue
 build.py              builds blueberry.db, exports CSVs, writes reports/
+make_pdfs.py          generates the Invoice and Invoice Summary PDFs from blueberry.db
 blueberry.db          the built SQLite database
 exports/*.csv         data for importing into FileMaker (invoices 4–20 only)
 reports/*.md          generated reports
