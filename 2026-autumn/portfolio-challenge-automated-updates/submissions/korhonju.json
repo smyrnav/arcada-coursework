@@ -1,0 +1,16 @@
+{
+ "user": "korhonju",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "NVDA",
+   "date": "2026-10-07",
+   "amount": 5000.0
+  },
+  {
+   "ticker": "AAPL",
+   "date": "2026-10-07",
+   "amount": 5000.0
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "user": "chenweil",
+ "grp": "INT",
+ "positions": [
+  {
+   "ticker": "NVDA",
+   "date": "2026-10-27",
+   "shares": 50.0
+  }
+ ]
+}

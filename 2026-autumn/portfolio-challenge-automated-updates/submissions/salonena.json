@@ -1,0 +1,16 @@
+{
+ "user": "salonena",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "VOLV-B.ST",
+   "date": "2026-10-15",
+   "amount": 4500.0
+  },
+  {
+   "ticker": "ERIC-B.ST",
+   "date": "2026-10-15",
+   "amount": 4500.0
+  }
+ ]
+}

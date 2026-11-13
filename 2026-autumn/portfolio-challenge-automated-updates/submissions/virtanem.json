@@ -1,0 +1,16 @@
+{
+ "user": "virtanem",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "NOKIA.HE",
+   "date": "2026-10-06",
+   "amount": 4000.0
+  },
+  {
+   "ticker": "FORTUM.HE",
+   "date": "2026-10-06",
+   "amount": 3000.0
+  }
+ ]
+}

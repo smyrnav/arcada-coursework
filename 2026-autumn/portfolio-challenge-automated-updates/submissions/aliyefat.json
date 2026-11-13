@@ -1,0 +1,16 @@
+{
+ "user": "aliyefat",
+ "grp": "INT",
+ "positions": [
+  {
+   "ticker": "SPOT",
+   "date": "2026-10-16",
+   "amount": 5000.0
+  },
+  {
+   "ticker": "NESTE.HE",
+   "date": "2026-10-16",
+   "amount": 4000.0
+  }
+ ]
+}

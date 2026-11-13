@@ -1,0 +1,16 @@
+{
+ "user": "heikkiij",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "MSFT",
+   "date": "2026-10-14",
+   "amount": 6000.0
+  },
+  {
+   "ticker": "ASML.AS",
+   "date": "2026-10-14",
+   "amount": 4000.0
+  }
+ ]
+}

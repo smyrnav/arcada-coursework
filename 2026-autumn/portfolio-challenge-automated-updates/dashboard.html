@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portföljtävlingen</title>
+<style>
+:root{--bg:#fbfbfa;--fg:#1c2330;--muted:#5d6675;--panel:#f0f2f5;--line:#d9dde3;--ok:#1a7f4b;--bad:#c2362b;--accent:#2f5d9e;--accent2:#1a7f4b}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e8ebf0;--muted:#9aa4b2;--panel:#1d232d;--line:#2d3542;--ok:#4cc38a;--bad:#ff7b6e;--accent:#6c9be0;--accent2:#4cc38a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:60rem;margin:0 auto;padding:24px max(16px,env(safe-area-inset-left)) 48px;display:flex;flex-direction:column;gap:24px}
+h1{font:600 1.9rem/1.2 Georgia,"Times New Roman",serif;margin:0}
+h2{font-size:1.1rem;margin:0 0 8px}
+.muted{color:var(--muted);font-size:.85rem}
+p{margin:0}
+.controls{display:flex;flex-wrap:wrap;gap:16px}
+.field{display:flex;flex-direction:column;gap:4px;flex:1 1 12rem;min-width:0}
+.field label{font-size:.8rem;color:var(--muted)}
+select,input{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);min-width:0}
+select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:16px}
+.tile .v{font:400 1.6rem Georgia,serif;font-variant-numeric:tabular-nums;display:block}
+.tile .l{font-size:.8rem;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.card h3{margin:0;font-size:1.05rem}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.tw{overflow-x:auto}.scroll{max-height:26rem;overflow:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th{text-align:left;font-size:.8rem;font-weight:600;color:var(--muted);padding:6px 10px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);white-space:nowrap}
+td{padding:6px 10px;border-bottom:1px solid var(--line)}
+.n{text-align:right}
+tr.me td{background:var(--panel);font-weight:600}
+.chart{position:relative}
+.tip{position:absolute;pointer-events:none;padding:4px 8px;background:var(--bg);border:1px solid var(--line);border-radius:6px;font-size:.8rem;white-space:nowrap;display:none}
+details summary{cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div>
+<h1>Portföljtävlingen / Investment Challenge</h1>
+<p class="muted">Kursdata: stängningskurser 13 nov 2026. Endast kursavkastning, utdelningar ingår inte. / Closing prices 13 nov 2026, price return only.</p>
+</div>
+<p id="takeaway"></p>
+<div class="controls">
+<div class="field"><label for="grp">Grupp / Group</label>
+<select id="grp"><option value="SV">Svenska gruppen</option><option value="INT">International group</option></select></div>
+<div class="field"><label for="user">Ditt användarnamn / Your username</label>
+<input id="user" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="t.ex. totterad / e.g. roufabdu"></div>
+</div>
+<section id="me"></section>
+<div class="tiles" id="stats"></div>
+<section><h2>Topp 10 / Top 10</h2><div class="tw"><table><thead><tr><th class="n">#</th><th>Användarnamn / Username</th><th class="n">Avkastning / Return</th></tr></thead><tbody id="top"></tbody></table></div></section>
+<section><h2>Så fördelar sig avkastningen / Distribution of returns</h2><div class="chart" id="hist"></div>
+<p class="muted">Varje stapel är ett avkastningsintervall, höjden är antal deltagare. Din stapel är markerad. / Each bar is a return range, height is number of students. Yours is highlighted.</p></section>
+<section><h2>Hela listan / Full standings</h2><div class="tw scroll"><table><thead><tr><th class="n">#</th><th>Användarnamn / Username</th><th class="n">Avkastning / Return</th><th class="n">Värde / Value</th></tr></thead><tbody id="all"></tbody></table></div>
+<p class="muted" id="unr"></p></section>
+<details><summary>Regler / Rules</summary>
+<p class="muted">Startkapital 10 000 €, upp till 5 positioner. Köpkurs är stängningskurs på köpdagen (eller nästa handelsdag). Utländska aktier räknas om till euro med köpdagens kurs. Outnyttjade pengar är kontanter. Rankingen gäller inom den egna gruppen. / Starting capital €10,000, up to 5 positions. Buy price is the closing price on the buy date (or next trading day). Foreign shares are converted to EUR at that day's rate. Unspent money stays as cash. Ranking is within your own group.</p></details>
+</div>
+<script>
+const DATA={"students": [{"user": "ahonenma", "grp": "SV", "ret": null, "value": null, "pnl": null, "rank": null, "note": "Inga positioner inl\u00e4mnade"}, {"user": "aliyefat", "grp": "INT", "ret": 0.027611189820734072, "value": 10276.11, "pnl": 276.11, "rank": 2, "note": ""}, {"user": "chenweil", "grp": "INT", "ret": -0.24505372800162273, "value": 7549.46, "pnl": -2450.54, "rank": 7, "note": ""}, {"user": "duboimar", "grp": "INT", "ret": 0.007725036621093695, "value": 10077.25, "pnl": 77.25, "rank": 3, "note": ""}, {"user": "garciaju", "grp": "INT", "ret": 0.05076006653215548, "value": 10507.6, "pnl": 507.6, "rank": 1, "note": ""}, {"user": "heikkiij", "grp": "SV", "ret": -0.05205588271095496, "value": 9479.44, "pnl": -520.56, "rank": 8, "note": ""}, {"user": "karjalah", "grp": "SV", "ret": 0.03280555565104981, "value": 10328.06, "pnl": 328.06, "rank": 3, "note": ""}, {"user": "korhonju", "grp": "SV", "ret": -0.1156922423392478, "value": 8843.08, "pnl": -1156.92, "rank": 10, "note": ""}, {"user": "kowalski", "grp": "INT", "ret": -0.011396940244454146, "value": 9886.03, "pnl": -113.97, "rank": 4, "note": ""}, {"user": "laineela", "grp": "SV", "ret": 0.021306450041514102, "value": 10213.06, "pnl": 213.06, "rank": 4, "note": ""}, {"user": "lehtovei", "grp": "SV", "ret": -0.011769610584738022, "value": 9882.3, "pnl": -117.7, "rank": 7, "note": ""}, {"user": "makelaso", "grp": "SV", "ret": 0.062096349983479016, "value": 10620.96, "pnl": 620.96, "rank": 2, "note": ""}, {"user": "nguyenan", "grp": "INT", "ret": -0.1091165950225419, "value": 8908.83, "pnl": -1091.17, "rank": 6, "note": ""}, {"user": "niemipek", "grp": "SV", "ret": -0.1258573287631729, "value": 8741.43, "pnl": -1258.57, "rank": 11, "note": ""}, {"user": "okafochi", "grp": "INT", "ret": null, "value": null, "pnl": null, "rank": null, "note": "Inga positioner inl\u00e4mnade"}, {"user": "rantalil", "grp": "SV", "ret": 0.021134261540137755, "value": 10211.34, "pnl": 211.34, "rank": 5, "note": ""}, {"user": "salonena", "grp": "SV", "ret": 0.020164408626178743, "value": 10201.64, "pnl": 201.64, "rank": 6, "note": ""}, {"user": "smithjoh", "grp": "INT", "ret": -0.09869412156431423, "value": 9013.06, "pnl": -986.94, "rank": 5, "note": ""}, {"user": "tuomijar", "grp": "SV", "ret": 0.07195842751505555, "value": 10719.58, "pnl": 719.58, "rank": 1, "note": ""}, {"user": "virtanem", "grp": "SV", "ret": -0.09256911578450178, "value": 9074.31, "pnl": -925.69, "rank": 9, "note": ""}]};
+const S=DATA.students;
+const $=id=>document.getElementById(id);
+const nf=(x,d)=>new Intl.NumberFormat('sv-SE',{minimumFractionDigits:d,maximumFractionDigits:d}).format(x);
+const pct=(x,d=1)=>x==null?'—':(x>=0?'+':'−')+nf(Math.abs(x)*100,d)+' %';
+const eur=x=>x==null?'—':nf(x,0)+' €';
+const sgn=x=>x==null?'—':(x>=0?'+':'−')+eur(Math.abs(x));
+const cls=x=>x==null?'':x>=0?'pos':'neg';
+const med=a=>{const s=[...a].sort((x,y)=>x-y),n=s.length;return n?(n%2?s[(n-1)/2]:(s[n/2-1]+s[n/2])/2):null};
+function el(tag,attrs,text){const e=document.createElement(tag);if(attrs)for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;return e}
+let grp='SV',user='';
+function render(){
+  const g=S.filter(s=>s.grp===grp),ranked=g.filter(s=>s.rank).sort((a,b)=>a.rank-b.rank);
+  const rets=ranked.map(s=>s.ret);
+  $('takeaway').textContent=ranked.length+' rankade deltagare. Ledaren har '+pct(rets[0])+', medianen ligger på '+pct(med(rets))+'. / ranked students. The leader is at '+pct(rets[0])+', the median at '+pct(med(rets))+'.';
+  const st=$('stats');st.replaceChildren();
+  [[String(ranked.length),'Rankade / Ranked',''],[pct(rets[0]),'Bäst / Best',cls(rets[0])],[pct(med(rets)),'Median',cls(med(rets))],[pct(rets[rets.length-1]),'Sämst / Worst',cls(rets[rets.length-1])],[String(g.length-ranked.length),'Ej rankade / Unranked','']].forEach(([v,l,c])=>{const d=el('div',{class:'tile'});d.append(el('span',{class:'v '+c},v),el('span',{class:'l'},l));st.append(d)});
+  const row=(s,cells)=>{const tr=el('tr',s.user===user?{class:'me'}:null);cells.forEach(([t,c])=>tr.append(el('td',c?{class:c}:null,t)));return tr};
+  $('top').replaceChildren(...ranked.slice(0,10).map(s=>row(s,[[s.rank,'n'],[s.user],[pct(s.ret),'n '+cls(s.ret)]])));
+  $('all').replaceChildren(...ranked.map(s=>row(s,[[s.rank,'n'],[s.user],[pct(s.ret),'n '+cls(s.ret)],[eur(s.value),'n']])));
+  const u=g.length-ranked.length;
+  $('unr').textContent=u?u+' deltagare saknas i listan: ingen inlämning eller ofullständiga uppgifter. / '+u+' students are not listed: no submission or incomplete data.':'';
+  hist(ranked);me();
+}
+function hist(ranked){
+  const box=$('hist');box.replaceChildren();
+  const lo=-.2,hi=.2,step=.02,nb=20,bins=Array.from({length:nb},(_,i)=>({a:lo+i*step,b:lo+(i+1)*step,n:0,mine:false}));
+  ranked.forEach(r=>{const i=Math.max(0,Math.min(nb-1,Math.floor((r.ret-lo)/step)));bins[i].n++;if(r.user===user)bins[i].mine=true});
+  const W=Math.max(280,box.clientWidth||600),H=190,m={t:8,r:8,b:40,l:28},mx=Math.max(1,...bins.map(b=>b.n));
+  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+  svg.setAttribute('width',W);svg.setAttribute('height',H);svg.setAttribute('role','img');svg.setAttribute('aria-label','Histogram över gruppens avkastning / histogram of group returns');
+  const add=(t,a,tx)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);if(tx!=null)e.textContent=tx;svg.append(e);return e};
+  const y=v=>H-m.b-(H-m.b-m.t)*v/mx,bw=(W-m.l-m.r)/nb;
+  const ticks=[0,Math.ceil(mx/2),mx].filter((v,i,a)=>a.indexOf(v)===i);
+  ticks.forEach(v=>{add('line',{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),stroke:'var(--line)'});add('text',{x:m.l-4,y:y(v)+3,'text-anchor':'end',fill:'var(--muted)','font-size':11},v)});
+  const tip=el('div',{class:'tip'});
+  bins.forEach((b,i)=>{const r=add('rect',{x:m.l+i*bw+1,y:y(b.n),width:bw-2,height:y(0)-y(b.n),fill:b.mine?'var(--accent2)':'var(--accent)'});
+    r.addEventListener('mousemove',ev=>{const rc=box.getBoundingClientRect();tip.style.display='block';tip.textContent=(i===0?'< −18 %':i===nb-1?'≥ +18 %':pct(b.a,0)+' till '+pct(b.b,0))+': '+b.n;tip.style.left=Math.min(ev.clientX-rc.left+10,W-140)+'px';tip.style.top=Math.max(0,ev.clientY-rc.top-30)+'px'});
+    r.addEventListener('mouseleave',()=>tip.style.display='none')});
+  const bx=v=>m.l+(v-lo)/(hi-lo)*(W-m.l-m.r);
+  [-.2,-.1,0,.1,.2].forEach(v=>add('text',{x:bx(v),y:H-m.b+16,'text-anchor':'middle',fill:'var(--muted)','font-size':11},(v>0?'+':v<0?'−':'')+Math.abs(v*100)+' %'));
+  add('line',{x1:bx(0),x2:bx(0),y1:m.t,y2:H-m.b,stroke:'var(--muted)','stroke-dasharray':'3 3'});
+  box.append(svg,tip);
+}
+function me(){
+  const box=$('me');box.replaceChildren();
+  const c=el('div',{class:'card'});box.append(c);
+  if(!user){c.append(el('p',{class:'muted'},'Skriv ditt användarnamn ovan för att se din placering. / Enter your username above to see your standing.'));return}
+  const r=S.find(s=>s.user===user);
+  if(!r){c.append(el('p',null,'Hittar inget användarnamn "'+user+'". Använd samma namn som i ditt filnamn, t.ex. totterad. / No username "'+user+'" found. Use the name in your file name, e.g. totterad.'));return}
+  const total=S.filter(s=>s.grp===r.grp&&s.rank).length;
+  c.append(el('h3',null,r.user+' · '+(r.grp==='SV'?'Svenska gruppen':'International group')));
+  if(!r.rank){c.append(el('p',null,r.note||'Ej rankad / Not ranked'))}
+  else{const t=el('div',{class:'tiles'});c.append(t);
+    [['#'+r.rank+' / '+total,'Placering i gruppen / Rank in group',''],[pct(r.ret,2),'Avkastning / Return',cls(r.ret)],[eur(r.value),'Portföljvärde / Portfolio value',''],[sgn(r.pnl),'Vinst/förlust / Profit/loss',cls(r.pnl)]].forEach(([v,l,k])=>{const d=el('div',{class:'tile'});d.append(el('span',{class:'v '+k},v),el('span',{class:'l'},l));t.append(d)})}
+}
+$('grp').addEventListener('change',e=>{grp=e.target.value;render()});
+let t;$('user').addEventListener('input',e=>{clearTimeout(t);t=setTimeout(()=>{user=e.target.value.trim().toLowerCase();const h=S.find(s=>s.user===user);if(h&&h.grp!==grp){grp=h.grp;$('grp').value=grp}render()},250)});
+addEventListener('resize',()=>{clearTimeout(t);t=setTimeout(render,150)});
+render();
+</script>
+</body>
+</html>

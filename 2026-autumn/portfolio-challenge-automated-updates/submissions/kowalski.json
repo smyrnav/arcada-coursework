@@ -1,0 +1,16 @@
+{
+ "user": "kowalski",
+ "grp": "INT",
+ "positions": [
+  {
+   "ticker": "ASML.AS",
+   "date": "2026-10-08",
+   "amount": 5000.0
+  },
+  {
+   "ticker": "SAP.DE",
+   "date": "2026-10-08",
+   "amount": 5000.0
+  }
+ ]
+}

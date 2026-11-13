@@ -1,0 +1,26 @@
+{
+ "user": "makelaso",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "NDA-FI.HE",
+   "date": "2026-10-08",
+   "amount": 2500.0
+  },
+  {
+   "ticker": "SAMPO.HE",
+   "date": "2026-10-08",
+   "amount": 2500.0
+  },
+  {
+   "ticker": "KNEBV.HE",
+   "date": "2026-10-08",
+   "amount": 2500.0
+  },
+  {
+   "ticker": "UPM.HE",
+   "date": "2026-10-08",
+   "amount": 2500.0
+  }
+ ]
+}

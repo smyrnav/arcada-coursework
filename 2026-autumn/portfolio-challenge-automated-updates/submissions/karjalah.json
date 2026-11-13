@@ -1,0 +1,31 @@
+{
+ "user": "karjalah",
+ "grp": "SV",
+ "positions": [
+  {
+   "ticker": "NOKIA.HE",
+   "date": "2026-10-22",
+   "amount": 2000.0
+  },
+  {
+   "ticker": "NDA-FI.HE",
+   "date": "2026-10-22",
+   "amount": 2000.0
+  },
+  {
+   "ticker": "SAMPO.HE",
+   "date": "2026-10-22",
+   "amount": 2000.0
+  },
+  {
+   "ticker": "FORTUM.HE",
+   "date": "2026-10-22",
+   "amount": 2000.0
+  },
+  {
+   "ticker": "UPM.HE",
+   "date": "2026-10-22",
+   "amount": 2000.0
+  }
+ ]
+}

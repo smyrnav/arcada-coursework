@@ -1,0 +1,21 @@
+{
+ "user": "garciaju",
+ "grp": "INT",
+ "positions": [
+  {
+   "ticker": "AAPL",
+   "date": "2026-10-09",
+   "amount": 3000.0
+  },
+  {
+   "ticker": "AMZN",
+   "date": "2026-10-09",
+   "amount": 3000.0
+  },
+  {
+   "ticker": "MC.PA",
+   "date": "2026-10-09",
+   "amount": 3000.0
+  }
+ ]
+}
