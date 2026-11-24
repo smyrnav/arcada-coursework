@@ -21,15 +21,14 @@ structure follows the course template (Arcada University of Applied Sciences 202
 
 ## 2.1. Own-brand products in grocery stores within KESKO
 
-Kesko's grocery own-brand architecture is a tiered family built around **Pirkka**:
+Kesko organises its grocery own brands as a tiered family around **Pirkka**:
 Pirkka as the mainstream tier (Kesko states the range covers more than 2,800 products),
 **Pirkka Parhaat** as the premium tier, and **K-Menu** as the low-price tier aimed at
 price-conscious shoppers (Kesko 2026). In our snack sample, Pirkka Original perunalastu
 (275 g) was listed at €2.19 (€7.96/kg) — 28.4% cheaper per kg than the Taffel benchmark
 in the same K-Ruoka catalogue (K-Ruoka 2026). In other words, Pirkka is positioned here
-as a straightforward cheaper equivalent of the national brand — the kind of deliberate
-price gap the McKinsey article recommends retailers maintain (Begley & McOuat 2020,
-p. 7).
+as a straightforward cheaper equivalent of the national brand. The McKinsey article
+recommends exactly this kind of deliberate price gap (Begley & McOuat 2020, p. 7).
 
 ## 2.2. Own-brand products in grocery stores within the S-group
 
@@ -45,14 +44,14 @@ rather than one cheap alternative (Begley & McOuat 2020, p. 5).
 
 ## 2.3. Own-brand products in Lidl's grocery stores
 
-Lidl's model differs structurally: the assortment is dominated by own brands. The
+Lidl's model differs structurally: own brands dominate the assortment. The
 Finnish Competition and Consumer Authority's 2025 research report identified **more than
-150 Lidl private-label brands** in its dataset — not one store brand but a large
-portfolio of category-specific labels (Kilpailu- ja kuluttajavirasto 2025). In our snack
+150 Lidl private-label brands** in its dataset — many category-specific labels rather
+than a single store brand (Kilpailu- ja kuluttajavirasto 2025). In our snack
 sample we found **Snack Day** (truffle-flavoured crisps, €2.49/150 g) (Lidl 2026a) and
 **Deluxe** (premium-tier crisps, €1.99/150 g) (Lidl 2026b). Our sample contains no
-national-brand comparator at Lidl, so no price pair could be built for it; Lidl's own
-brands largely *are* the assortment, and the article notes that retailers built this way
+national-brand comparator at Lidl, so no price pair could be built for it. Lidl's own
+brands largely *are* the assortment; the article notes that retailers built this way
 can win loyalty almost entirely through their private labels (Begley & McOuat 2020,
 p. 8).
 
@@ -86,12 +85,12 @@ Physical shelf placement was not assessed (see methodological note). The digital
 equivalent — catalogue merchandising — was examined instead. In both K-Ruoka and
 S-kaupat online category listings, private-label products appear **interleaved with
 national brands in the same category grid**, not segregated into a separate "cheap"
-section; both catalogues also offer own-brand filter facets, which actively surfaces the
-retailers' own labels (K-Ruoka 2026; S-kaupat 2026b). Notably, the national benchmark
-(Taffel) carried a Plussa multi-buy promotion in the K-Ruoka listing while the private
-labels held plain regular prices — consistent with McKinsey's observation that national
-brands defend position through promotions while private labels defend a standing price
-gap (Begley & McOuat 2020, p. 7). Whether this digital parity matches physical shelf
+section. Both catalogues also offer own-brand filter options, which makes the own brands
+easy to find (K-Ruoka 2026; S-kaupat 2026b). One detail stands out: the national
+benchmark (Taffel) carried a Plussa multi-buy promotion in the K-Ruoka listing, while
+the private labels held plain regular prices. This matches the article's observation
+that national brands rely on promotions while private labels hold a standing price gap
+(Begley & McOuat 2020, p. 7). Whether this digital parity matches physical shelf
 placement remains unverified.
 
 ## 2.6. Summary of Part A (150–200 words)
@@ -162,7 +161,7 @@ likely weighs heavier than the commuter rush.
 **Shared segment:** convenience-oriented buyers who value immediate consumption over
 price in both locations — which is precisely the segment the identical standardised
 menu serves. The identical pricing suggests R-kioski optimises for this shared need
-state rather than differentiating by location, at least in the delivered range. Testing
+rather than differentiating by location, at least in the delivered range. Testing
 these hypotheses would require the observation the template originally asked for:
 counting who actually buys what, when, at each location.
 
@@ -184,10 +183,10 @@ research with clearly labelled hypotheses, not as mystery shopping.
 
 ## 3.4.1. R-kioski own-brand products
 
-Public digital evidence on R-kioski's own brands is thin, and this is reported as a data
-gap rather than filled with assumptions. In the sampled Wolt menus, the filled breads
+Public digital evidence on R-kioski's own brands is thin. I report this as a data gap
+instead of guessing. In the sampled Wolt menus, the filled breads
 (croissants, pretzel, rye breads) are sold under the R-kioski venue without a separate
-manufacturer brand shown, which is *consistent with* own-brand production but does not
+manufacturer brand shown. This is *consistent with* own-brand production but does not
 prove trademark ownership — under the Finnish definition, a private label is determined
 by brand ownership/control, not by shelf presence (Kilpailu- ja kuluttajavirasto 2025).
 Both sampled locations list the same six items at identical prices, so **no difference
