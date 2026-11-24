@@ -9,6 +9,8 @@ import shutil
 from pathlib import Path
 
 from docx import Document
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
 from docx.shared import Inches, Pt
 
 BASE = Path(__file__).resolve().parent.parent
@@ -18,14 +20,44 @@ OUT = Path.home() / "Downloads" / "Group_Work_Introduction_to_Marketing_2026_Smy
 MD_LINE = re.compile(r"^(#{1,3})\s+(.*)$")
 IMG = re.compile(r"^!\[(.*?)\]\((.*?)\)$")
 TABLE_ROW = re.compile(r"^\|(.+)\|$")
+LINK = re.compile(r"^\[([^\]]+)\]\(([^)]+)\)$")
+
+
+def add_hyperlink(paragraph, url, text):
+    part = paragraph.part
+    r_id = part.relate_to(
+        url,
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+        is_external=True,
+    )
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+    run = OxmlElement("w:r")
+    rPr = OxmlElement("w:rPr")
+    color = OxmlElement("w:color")
+    color.set(qn("w:val"), "0563C1")
+    rPr.append(color)
+    u = OxmlElement("w:u")
+    u.set(qn("w:val"), "single")
+    rPr.append(u)
+    run.append(rPr)
+    t = OxmlElement("w:t")
+    t.text = text
+    t.set(qn("xml:space"), "preserve")
+    run.append(t)
+    hyperlink.append(run)
+    paragraph._p.append(hyperlink)
 
 
 def add_runs(par, text):
-    """Minimal inline formatting: **bold** and *italic*."""
-    for tok in re.split(r"(\*\*.+?\*\*|\*[^*]+?\*)", text):
+    """Minimal inline formatting: **bold**, *italic* and [links](url)."""
+    for tok in re.split(r"(\*\*.+?\*\*|\*[^*]+?\*|\[[^\]]+?\]\([^)]+?\))", text):
         if not tok:
             continue
-        if tok.startswith("**") and tok.endswith("**"):
+        m = LINK.match(tok)
+        if m:
+            add_hyperlink(par, m.group(2), m.group(1))
+        elif tok.startswith("**") and tok.endswith("**"):
             par.add_run(tok[2:-2]).bold = True
         elif tok.startswith("*") and tok.endswith("*") and len(tok) > 2:
             par.add_run(tok[1:-1]).italic = True
