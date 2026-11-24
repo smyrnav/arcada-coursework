@@ -26,10 +26,10 @@ Pirkka as the mainstream tier (Kesko states the range covers more than 2,800 pro
 **Pirkka Parhaat** as the premium tier, and **K-Menu** as the low-price tier aimed at
 price-conscious shoppers (Kesko 2026). In our snack sample, Pirkka Original perunalastu
 (275 g) was listed at €2.19 (€7.96/kg) — 28.4% cheaper per kg than the Taffel benchmark
-in the same K-Ruoka catalogue (K-Ruoka 2026). This is a clear mainstream me-too
-position: a direct equivalent of the national brand at a consistently lower unit price,
-exactly the "price gapping" discipline described in the McKinsey framework (Begley &
-McOuat 2020, p. 7).
+in the same K-Ruoka catalogue (K-Ruoka 2026). In other words, Pirkka is positioned here
+as a straightforward cheaper equivalent of the national brand — the kind of deliberate
+price gap the McKinsey article recommends retailers maintain (Begley & McOuat 2020,
+p. 7).
 
 ## 2.2. Own-brand products in grocery stores within the S-group
 
@@ -38,10 +38,10 @@ price point), **Coop** (mainstream) and **Kotimaista** (origin-positioned, Finni
 provenance) (S-kaupat 2026a). All three appear in the same S-kaupat crisp category
 alongside national brands. In our sample: Xtra salted crisps €1.71/250 g (€6.84/kg),
 Coop salted crisps €2.35/300 g (€7.83/kg), Kotimaista salted crisps €1.99/200 g
-(€9.95/kg) — against Taffel at €10.19/kg (S-kaupat 2026b). The portfolio spans three
-distinct price tiers inside one product category, which maps onto the "portfolio
-management" stage of McKinsey's maturity model: different sub-brands covering different
-customer need states (Begley & McOuat 2020, p. 5).
+(€9.95/kg) — against Taffel at €10.19/kg (S-kaupat 2026b). Seeing three own brands at
+three price levels inside one crisp category was unexpected; it looks like what the
+article calls portfolio management — several own brands aimed at different customers
+rather than one cheap alternative (Begley & McOuat 2020, p. 5).
 
 ## 2.3. Own-brand products in Lidl's grocery stores
 
@@ -50,19 +50,20 @@ Finnish Competition and Consumer Authority's 2025 research report identified **m
 150 Lidl private-label brands** in its dataset — not one store brand but a large
 portfolio of category-specific labels (Kilpailu- ja kuluttajavirasto 2025). In our snack
 sample we found **Snack Day** (truffle-flavoured crisps, €2.49/150 g) (Lidl 2026a) and
-**Deluxe** (premium-tier crisps, €1.99/150 g) (Lidl 2026b). Because Lidl's shelves carry
-few national brands, no matched national-brand price pair could be built for Lidl in
-this sample; its private labels largely *are* the assortment, which is itself the
-loyalty strategy McKinsey describes for private-label-led retailers (Begley & McOuat
-2020, p. 8).
+**Deluxe** (premium-tier crisps, €1.99/150 g) (Lidl 2026b). Our sample contains no
+national-brand comparator at Lidl, so no price pair could be built for it; Lidl's own
+brands largely *are* the assortment, and the article notes that retailers built this way
+can win loyalty almost entirely through their private labels (Begley & McOuat 2020,
+p. 8).
 
 ## 2.4. Product categories and product examples
 
 The digital audit covered one category in depth (snacks/crisps) across the three chains,
-plus R-kioski convenience foods in Part B; the retailers' own-brand pages show own labels
-across well over 15 product categories each (dry foods, dairy, frozen, household
-chemicals etc.) (Kesko 2026; S-kaupat 2026a), but only categories with collected data
-are claimed here. Product examples from the dataset (online catalogue images exist at
+plus R-kioski convenience foods in Part B. To answer the template's category question
+honestly: our dataset verifies own brands in the snack category at each chain. The
+retailers' own-brand pages indicate much wider ranges (Kesko 2026; S-kaupat 2026a), but
+we did not count categories beyond our sample, so no higher number is claimed here.
+Product examples from the dataset (online catalogue images exist at
 the source URLs; they are not physical store photographs) (K-Ruoka 2026; S-kaupat 2026b;
 Lidl 2026a; FeedMyCart 2026):
 
@@ -97,15 +98,15 @@ placement remains unverified.
 
 Three findings stand out. First, the private-label price gap is real and consistent in
 our sample: 23–33% per kg below the Taffel benchmark across both chains that stock one.
-Second, the retailers' architectures differ more than expected — Kesko's tiered Pirkka
-family, S Group's three separate brands inside a single crisp category, and Lidl's
-own-label-dominated assortment are three genuinely different strategies, not cosmetic
-variants. What surprised me most was S Group running three own brands at three price
-tiers within one low-involvement category; that is portfolio management of the kind
-McKinsey assigns to more mature markets, applied to crisps (Begley & McOuat 2020, p. 5). Third, the data also shows
-its own limits: Lidl could not be price-benchmarked because it lacks national-brand
-comparators, and without store-verified prices the exact Helsinki gaps remain
-indicative. What the data cannot establish at all is whether shoppers actually choose
+Second, the three chains clearly use different approaches — Kesko's tiered Pirkka
+family, S Group's three separate own brands inside a single crisp category, and Lidl's
+own-label-dominated assortment are genuinely different strategies, not cosmetic
+variants. What surprised me most was finding that kind of brand-portfolio thinking in
+something as ordinary as crisps; the article treats exactly this as a sign of a more
+developed private-label market (Begley & McOuat 2020, p. 5). Third, the data also shows
+its own limits: Lidl could not be price-benchmarked because our sample has no
+national-brand comparator for it, and without store-verified prices the exact Helsinki
+gaps remain indicative. What the data cannot establish at all is whether shoppers actually choose
 these products — positioning is visible, preference is not. A short physical verification visit would
 complement the digital audit well, and the dataset is structured so that store-verified
 prices can simply be appended later.
@@ -202,8 +203,9 @@ pumpkin-seed roll, a turkey-cheese pretzel, and cheese or turkey-cheese rye brea
 €3.90–4.60 per item, €24.08–29.93 per kg (Wolt 2026a; Wolt 2026b). Competing brands, packaging and the
 availability of unpackaged fresh sandwiches could **not** be verified from public digital
 sources and are not assessed. Taste is likewise not assessed (no first-hand tasting was
-done for this report). What the data does show: the unit prices are roughly **2.5–3.7×
-the per-kg price of supermarket private-label crisps** in Part A — a visible convenience
+done for this report). What the data does show: at €24–30 per kg, these items cost
+several times the per-kg price of the supermarket private-label crisps in Part A
+(€6.84–9.95/kg) — a visible convenience
 premium. My own view: that premium is the entire business model in one number. Nobody
 pays €4.40 for 147 g of croissant because it wins a taste comparison; they pay for
 location, immediacy and not having to plan. The identical central/suburban pricing
@@ -222,34 +224,37 @@ everywhere.
 
 # Part C: Reflection on the McKinsey article (individual substitute for the web survey)
 
-Begley and McOuat (2020) argue that private labels win a crisis easily and keep
-customers only with difficulty. COVID-19 handed retailers a wave of trial — nearly 40%
-of surveyed US consumers tried new brands, driven first by availability gaps and second
-by price (Begley & McOuat 2020, p. 2) — but the authors' sharp point is that trial is
-not loyalty. Most private labels exist because a supplier offered cheap capacity, not
-because anyone defined what the brand is for (Begley & McOuat 2020, p. 4). Their remedy
-is the five-area diagnostic (brand strategy, assortment and pricing, communication and
-packaging, design and sourcing, operating model) and the three-stage maturity ladder
-from opening-price me-too products to private labels that rival national brands as a
-reason to choose the store (Begley & McOuat 2020, p. 5).
+Begley and McOuat (2020) argue that retailers cannot build lasting customer loyalty
+simply by offering cheaper products. During COVID-19, almost 40% of surveyed US
+consumers tried new or alternative brands. Product availability was the main reason for
+switching, while affordability was the main reason consumers increased their purchases
+of private-label products (Begley & McOuat 2020, pp. 2–3). However, trying a product
+does not mean customers will continue buying it. The authors argue that retailers need
+a clear strategy for their private labels, covering brand positioning, assortment and
+pricing, packaging and marketing, product development and sourcing, and organisation.
 
-Reading this against our Helsinki data made the framework feel concrete. The 23–33%
-unit-price gaps we measured are exactly the "price gapping" discipline the article
-prescribes (Begley & McOuat 2020, p. 7) — but the article warns that a gap alone keeps
-no one. What separates Kesko and S Group from the least mature stage is visible in our
-sample: tiered architectures (K-Menu/Pirkka/Pirkka Parhaat; Xtra/Coop/Kotimaista)
-(Kesko 2026; S-kaupat 2026a) that segment need states rather than just undercutting
-Taffel. Lidl fits the article's most interesting case — the retailer whose private
-labels are the assortment and the loyalty engine simultaneously (Begley & McOuat 2020,
-p. 8; Kilpailu- ja kuluttajavirasto 2025).
+The article helped me understand why private labels should be analysed as brands rather
+than just cheaper alternatives. Our preliminary catalogue research shows some clear
+price differences. In three comparisons, Pirkka, Xtra and Coop potato chips had listed
+unit prices around 23–33% below Taffel products (K-Ruoka 2026; S-kaupat 2026b).
+However, these figures are only initial comparisons: the prices have not been verified
+for specific Helsinki stores, and the products differ in package size. They suggest a
+price advantage in our sample, but do not tell us whether customers consider the
+products equal in quality or prefer one brand over another.
 
-My main criticism is the evidence base: 2020 US pandemic surveys. Availability-driven
-switching in a panic-buying market tells us little about Finnish consumers in 2026, and
-the authors' own data shows a quarter of switchers bought private label only because the
-national brand was missing (Begley & McOuat 2020, p. 3) — conscripts, not converts. The
-framework's value is diagnostic, not predictive: it asks the right questions about *why
-a private label deserves to exist*, which is also the question this assignment's retail
-exercise is really asking.
+I also found the article's three stages of private-label development useful (Begley &
+McOuat 2020, p. 5). Retailers can move from offering basic low-price alternatives to
+managing a broader portfolio and eventually developing brands that compete on quality
+and innovation. Kesko and S Group both use several private-label brands with different
+positioning (Kesko 2026; S-kaupat 2026a). Our current sample is too small to determine
+how mature their strategies are, or to assess Lidl's position in the same way.
+
+The article was published in 2020 and draws on US consumer research during the pandemic.
+Its findings cannot be directly applied to Finnish consumers in 2026. Nevertheless, its
+framework is useful for understanding what retailers need to consider when developing
+private labels. The main lesson I took from it is that competitive pricing can attract
+customers, but a clear product identity and consistent value are needed to give them a
+reason to return.
 
 ### References (Part C)
 
@@ -263,22 +268,23 @@ exercise is really asking.
 **Segmentation in practice.** Part B showed me that segmentation is easy to hypothesise
 and hard to verify. My predicted segments were logically tidy, but the only hard
 evidence — identical Wolt menus (Wolt 2026a; Wolt 2026b) — pointed the other way:
-R-kioski standardises for the shared convenience need state. That tension between a
-neat model and thin evidence was the most instructive moment of the assignment.
+R-kioski standardises its range for the same convenience needs in both locations. That
+tension between a neat model and thin evidence was the most instructive moment of the
+assignment.
 
 **Branding and private labels.** The clearest lesson: a private label is a strategy, not
 a discount. Kesko's tiered Pirkka family (Kesko 2026), S Group's three brands inside one
 crisp category (S-kaupat 2026a; S-kaupat 2026b), and Lidl's 150+ own labels
 (Kilpailu- ja kuluttajavirasto 2025) are three different answers to the same question of
-what an own brand is for. The McKinsey maturity model gave me the vocabulary to see them
-as stages of ambition rather than interchangeable store brands (Begley & McOuat 2020,
+what an own brand is for. The McKinsey maturity model helped me see them as different levels of ambition rather
+than just interchangeable store brands (Begley & McOuat 2020,
 p. 5).
 
 **Packaging, placement, advertising.** Digitally, private labels are no longer hidden:
 both big chains give them filter facets and equal grid position with national brands,
 while national brands lean on promotions (Taffel's Plussa multi-buy) to defend shelf
 value (K-Ruoka 2026; S-kaupat 2026b). Whether physical shelves mirror this digital
-parity is precisely what I could not check — a honest gap in a digital method.
+parity is precisely what I could not check — an honest gap in a digital method.
 
 **Observation and web-based research.** Doing this digitally taught me the trade-off
 directly: catalogue data is exact, timestamped and reproducible, but it is silent about
