@@ -1,6 +1,6 @@
 # Private-Label Positioning in Finnish Grocery Retail
 
-**Course:** Introduction to Marketing, Arcada UAS — group work 2026, completed individually (Smyrna Volzhevska)
+**Course:** Introduction to Marketing, Arcada UAS — group work 2026, completed individually (Smyrna V.)
 **Research question:** How do Finnish grocery retailers (Kesko, S Group, Lidl) position their private-label products against established consumer brands in terms of price, assortment and product differentiation?
 **Scope:** Helsinki, Finland — snacks and convenience foods. Digital research only.
 

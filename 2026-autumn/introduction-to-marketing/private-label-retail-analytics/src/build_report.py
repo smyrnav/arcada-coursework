@@ -15,7 +15,7 @@ from docx.shared import Inches, Pt
 
 BASE = Path(__file__).resolve().parent.parent
 SRC = BASE / "report" / "report_draft.md"
-OUT = Path.home() / "Downloads" / "Group_Work_Introduction_to_Marketing_2026_Smyrna_Volzhevska.docx"
+OUT = Path.home() / "Downloads" / "Group_Work_Introduction_to_Marketing_2026_Smyrna_V.docx"
 
 MD_LINE = re.compile(r"^(#{1,3})\s+(.*)$")
 IMG = re.compile(r"^!\[(.*?)\]\((.*?)\)$")
