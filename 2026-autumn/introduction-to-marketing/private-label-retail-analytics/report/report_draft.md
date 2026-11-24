@@ -229,17 +229,17 @@ consumers tried new or alternative brands. Product availability was the main rea
 switching, while affordability was the main reason consumers increased their purchases
 of private-label products (Begley & McOuat 2020, pp. 2–3). However, trying a product
 does not mean customers will continue buying it. The authors argue that retailers need
-a clear strategy for their private labels, covering brand positioning, assortment and
-pricing, packaging and marketing, product development and sourcing, and organisation.
+a clear strategy for their private labels: brand, assortment, pricing, packaging,
+sourcing and organisation.
 
 The article helped me understand why private labels should be analysed as brands rather
-than just cheaper alternatives. Our preliminary catalogue research shows some clear
-price differences. In three comparisons, Pirkka, Xtra and Coop potato chips had listed
-unit prices around 23–33% below Taffel products (K-Ruoka 2026; S-kaupat 2026b).
-However, these figures are only initial comparisons: the prices have not been verified
-for specific Helsinki stores, and the products differ in package size. They suggest a
-price advantage in our sample, but do not tell us whether customers consider the
-products equal in quality or prefer one brand over another.
+than just cheaper alternatives. In our preliminary catalogue research, Pirkka, Xtra and
+Coop potato chips had listed unit prices 23–33% below Taffel in three comparisons
+(K-Ruoka 2026; S-kaupat 2026b). However, these figures are only initial comparisons:
+the prices have not been verified for specific Helsinki stores, and the products differ
+in package size. They suggest a price advantage in our sample, but do not tell us
+whether customers consider the products equal in quality or prefer one brand over
+another.
 
 I also found the article's three stages of private-label development useful (Begley &
 McOuat 2020, p. 5). Retailers can move from offering basic low-price alternatives to
@@ -248,19 +248,34 @@ and innovation. Kesko and S Group both use several private-label brands with dif
 positioning (Kesko 2026; S-kaupat 2026a). Our current sample is too small to determine
 how mature their strategies are, or to assess Lidl's position in the same way.
 
-The article was published in 2020 and draws on US consumer research during the pandemic.
-Its findings cannot be directly applied to Finnish consumers in 2026. Nevertheless, its
-framework is useful for understanding what retailers need to consider when developing
-private labels. The main lesson I took from it is that competitive pricing can attract
-customers, but a clear product identity and consistent value are needed to give them a
-reason to return.
+The McKinsey article was published in 2020 and relies on US consumer research during the
+pandemic. More recent Finnish research provides a better picture of the current market.
+A 2025 PTT survey of 1,197 consumers found that price remained the main factor in
+grocery purchases (PTT 2025). Consumers generally considered private labels cheaper,
+while many saw little difference in quality compared with manufacturer brands. A
+separate KKV study found that private labels accounted for around 26% of Finnish grocery
+sales value during 2016–2023, despite a significant increase in the number of products
+(Kilpailu- ja kuluttajavirasto 2025). European research points in the same direction:
+private labels reached a 38.8% value share across 17 European markets in 2025 and grew
+faster than manufacturer brands (PLMA 2026), and most consumers surveyed globally
+consider them good alternatives to manufacturer brands (NielsenIQ 2025).
+
+These findings support McKinsey's argument that price is only one part of private-label
+competition. The article's framework remains useful, but our own product comparisons
+cannot establish whether customers prefer these brands or remain loyal to them. They
+show differences in price and positioning, not purchasing behaviour.
 
 ### References (Part C)
 
 - Begley, S. & McOuat, A. (2020) *Turning private labels into powerhouse brands*. McKinsey & Company, October 2020. Available at: [https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands](https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands) (Accessed: 24 November 2026). [PDF copy provided via Itslearning by the lecturer.]
 - Kesko (2026) *K Group's own grocery store brands: Pirkka and K-Menu*. Available at: [https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/](https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/) (Accessed: 24 November 2026).
 - Kilpailu- ja kuluttajavirasto (2025) *Kaupan omat merkit eli private label -tuotteet elintarvikemarkkinoilla*. Tutkimusraportteja 3/2025. Available at: [https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/](https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/) (Accessed: 24 November 2026).
+- NielsenIQ (2025) *Finding Harmony On The Shelf: 2025 Global Outlook on Private Label & Branded Products*. Available at: [https://nielseniq.com/global/en/news-center/2025/niqs-global-report-reveals-challenges-and-opportunities-for-private-label-and-branded-product-growth/](https://nielseniq.com/global/en/news-center/2025/niqs-global-report-reveals-challenges-and-opportunities-for-private-label-and-branded-product-growth/) (Accessed: 24 November 2026).
+- PLMA (2026) *A mosaic of markets: private label strengthens its position across Europe*. Available at: [https://www.plmainternational.com/article/mosaic-markets-private-label-strengthens-its-position-across-europe](https://www.plmainternational.com/article/mosaic-markets-private-label-strengthens-its-position-across-europe) (Accessed: 24 November 2026).
+- PTT (2025) *Ruuan hinta ratkaisee – kuluttajien näkökulmia ruuan kulutukseen ja ruokamarkkinoihin*. PTT Raportteja. Available at: [https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/](https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/) (Accessed: 24 November 2026). Consumer survey (n = 1,197), autumn 2025.
 - S-kaupat (2026a) *Omat merkit* [own-brand overview]. Available at: [https://www.s-kaupat.fi/sivu/omat-merkit](https://www.s-kaupat.fi/sivu/omat-merkit) (Accessed: 24 November 2026).
+
+*Dataset sources cited in this part (K-Ruoka 2026; S-kaupat 2026b) are listed in References (Part A).*
 
 # Part D: Reflection on the assignment as a whole
 
