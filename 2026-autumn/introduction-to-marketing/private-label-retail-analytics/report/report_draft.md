@@ -221,6 +221,8 @@ view: that premium is the entire business model in one number. Nobody pays €4.
 and not having to plan. The identical central/suburban pricing supports this — the
 product being sold is convenience, and convenience costs the same everywhere.
 
+![Figure 5. Crisp ("perunalastut") search results at the Vuosaari kiosk on Wolt: national-brand snacks at kiosk prices — e.g. Pringles 70 g at €3.20 (€45.71/kg), roughly 4–6× the per-kg price of the same category in supermarkets. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_perunalastut_search.png)
+
 ![Chart: R-kioski central vs suburban menu prices](../outputs/charts/03_rkioski_central_vs_suburban.png)
 
 ### References (Part B)
@@ -263,11 +265,11 @@ held only about a quarter of Finnish grocery sales value in 2016–2023
 more interesting way to look at private labels than simply comparing which products
 cost less.
 
-![Figure 5. Consumer perceptions of private-label vs branded products in Finland (Kuva 6, N=1,197): 63% agree private labels are clearly cheaper; 42% consider quality equal. Source: PTT (2025).](../evidence/screenshots/finnish_research/ptt/ptt_2025_private_label_perceptions-18.png)
+![Figure 6. Consumer perceptions of private-label vs branded products in Finland (Kuva 6, N=1,197): 63% agree private labels are clearly cheaper; 42% consider quality equal. Source: PTT (2025).](../evidence/screenshots/finnish_research/ptt/ptt_2025_private_label_perceptions-18.png)
 
-![Figure 6. Private-label share of Finnish grocery sales 2016–2023 (Kuvio 1): stable at roughly a quarter of sales value. Source: Kilpailu- ja kuluttajavirasto (2025).](../evidence/screenshots/finnish_research/kkv/kkv_2025_private_label_sales_share-19.png)
+![Figure 7. Private-label share of Finnish grocery sales 2016–2023 (Kuvio 1): stable at roughly a quarter of sales value. Source: Kilpailu- ja kuluttajavirasto (2025).](../evidence/screenshots/finnish_research/kkv/kkv_2025_private_label_sales_share-19.png)
 
-![Figure 7. The article's three-stage private-label maturity model. Source: Begley & McOuat (2020, p. 5).](../evidence/screenshots/mckinsey/mckinsey_2020_maturity_model-5.png)
+![Figure 8. The article's three-stage private-label maturity model. Source: Begley & McOuat (2020, p. 5).](../evidence/screenshots/mckinsey/mckinsey_2020_maturity_model-5.png)
 
 ### References (Part C)
 
