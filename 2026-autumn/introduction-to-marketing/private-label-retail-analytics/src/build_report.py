@@ -12,6 +12,10 @@ from docx import Document
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt
+from PIL import Image
+
+MAX_IMG_W = 6.0   # inches, page width
+MAX_IMG_H = 7.0   # inches — keep image + caption on one page
 
 BASE = Path(__file__).resolve().parent.parent
 SRC = BASE / "report" / "report_draft.md"
@@ -91,7 +95,14 @@ def build():
         if m:
             caption, rel = m.group(1), m.group(2)
             img = (BASE / "report" / rel).resolve()
-            doc.add_picture(str(img), width=Inches(6.0))
+            with Image.open(img) as im:
+                w_px, h_px = im.size
+            width = MAX_IMG_W
+            height = width * h_px / w_px
+            if height > MAX_IMG_H:
+                height = MAX_IMG_H
+                width = height * w_px / h_px
+            doc.add_picture(str(img), width=Inches(width), height=Inches(height))
             if caption:
                 p = doc.add_paragraph()
                 r = p.add_run(caption)

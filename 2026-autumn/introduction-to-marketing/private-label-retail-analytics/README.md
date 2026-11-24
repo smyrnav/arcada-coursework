@@ -20,10 +20,15 @@ classroom survey for individual completion.
 
 ```
 data/processed/          CSV datasets (grocery products, R-kioski menu, price pairs)
-docs/                    source audit, methodology, article analysis, limitations
-src/analyze.py           summary statistics + all charts (pandas/matplotlib)
+docs/                    source audit, methodology, article analysis, limitations,
+                         research source notes
+evidence/                screenshot library + evidence_register.csv
+                         (real page captures via headless Firefox, 24 Nov 2026)
+src/                     analyze.py (stats + charts), build_report.py,
+                         build_presentation.py
 outputs/charts/          generated figures
 report/                  filled assignment report (markdown source + docx build script)
+presentation/            presentation.pptx + narration_script.md (Part E)
 ```
 
 ## Reproduce

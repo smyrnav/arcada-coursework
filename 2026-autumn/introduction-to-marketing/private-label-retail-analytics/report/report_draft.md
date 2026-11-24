@@ -188,8 +188,8 @@ hypotheses consistent with — but not confirmed by — the available data. If f
 were added later, the first test would be basket observation at both locations across a
 weekday: whether central purchases cluster on single grab-and-go items at commute
 peaks, and suburban baskets on multi-item top-ups in evenings, as predicted. Until
-then, this section should be graded as secondary digital research with clearly labelled
-hypotheses, not as mystery shopping. The limitation is disclosed here rather than
+then, this section is secondary digital research with clearly labelled
+hypotheses, not mystery shopping. The limitation is disclosed here rather than
 hidden behind borrowed observations.
 
 ## 3.4.1. What are R-kioski's own-brand products, in which categories, and do both locations have the same number?
@@ -317,6 +317,4 @@ context would answer both halves of the brief.
 
 A narrated presentation (voiceover/video, per the teacher's instruction) is submitted
 separately. It presents the research question, the dataset, the price-gap and R-kioski
-charts above, the McKinsey interpretation, and the limitations of the digital method.
-Note: the teacher's email gives **30 November** as the presentation date while the
-template says **2 December** — flagged for confirmation.
+charts, the McKinsey interpretation, and the limitations of the digital method.
