@@ -27,6 +27,8 @@ benchmark listed in the same category (K-Ruoka 2026). Pirkka is positioned as a
 straightforward cheaper equivalent of the national brand. The McKinsey article
 recommends exactly this kind of deliberate price gap (Begley & McOuat 2020, p. 7).
 
+![Figure 1. K-Ruoka snack listing filtered to Pirkka products. Prices match our dataset (Pirkka Original 275 g, €2.19, €7.96/kg); note the selected store shown is K-Citymarket Iso Omena (Espoo), not a confirmed Helsinki store. Online catalogue listing, not a shelf photograph. Source: K-Ruoka (2026).](../evidence/screenshots/retailers/kesko/kesko_pirkka_product_listing.png)
+
 ## 2.2. What are the own-brand products in S Group's grocery stores?
 
 S Group uses several separate own brands rather than one family (S-kaupat 2026a):
@@ -42,6 +44,8 @@ Taffel at €10.19/kg (S-kaupat 2026b). Three own brands at three price levels i
 crisp category looks like what the article calls portfolio management — several own
 brands aimed at different customers rather than one cheap alternative (Begley & McOuat
 2020, p. 5).
+
+![Figure 2. S-kaupat crisp category listing: Xtra, Coop and Kotimaista appear in the same grid as Taffel and other national brands. Prices match our dataset. Online catalogue listing, not a shelf photograph. Source: S-kaupat (2026b).](../evidence/screenshots/retailers/s_group/s_group_xtra_product_listing.png)
 
 ## 2.3. What are the own-brand products in Lidl's grocery stores?
 
@@ -140,6 +144,10 @@ In the digitally visible assortment there is no location-based difference at all
 R-kioski appears to run a standardised core convenience range. Differences may still
 exist in what delivery platforms do not show (cigarettes, lottery, services); that
 remains a hypothesis, not an observation.
+
+![Figure 3. Wolt venue page of the central kiosk (R-kioski Helsinki Rautatieasema Scandic Grand Central), showing the menu categories sampled for the comparison. Delivery-platform listing, not in-store prices. Source: Wolt (2026a).](../evidence/screenshots/retailers/r_kioski/r_kioski_rautatieasema_wolt_menu.png)
+
+![Figure 4. Wolt venue page of the suburban-proxy kiosk (R-kioski Vuosaari Kaivonkatsojantie 13). The same menu structure as the central location. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_wolt_menu.png)
 
 ## 3.2. Which customer segments are similar or different for suburban and central R-kiosks? (200–300 words)
 
@@ -247,11 +255,19 @@ because they are available. That is an important limitation of our research.
 Although the article is based on the US market during the pandemic, I still find its
 central question relevant: what makes someone choose a retailer's own brand when
 cheaper prices are no longer the main reason? Recent Finnish research asks the same
-question: in a 2025 consumer survey, price was still the main grocery purchase
-criterion, and private labels were seen as cheaper but similar in quality to
-manufacturer brands (PTT 2025; Kilpailu- ja kuluttajavirasto 2025). I think that is a
+question: in a 2025 survey of 1,197 consumers, price was still the main grocery
+purchase criterion, 63% considered private labels clearly cheaper, and 42% saw no
+quality difference compared with manufacturer brands (PTT 2025). Yet private labels
+held only about a quarter of Finnish grocery sales value in 2016–2023
+(Kilpailu- ja kuluttajavirasto 2025). I think that is a
 more interesting way to look at private labels than simply comparing which products
 cost less.
+
+![Figure 5. Consumer perceptions of private-label vs branded products in Finland (Kuva 6, N=1,197): 63% agree private labels are clearly cheaper; 42% consider quality equal. Source: PTT (2025).](../evidence/screenshots/finnish_research/ptt/ptt_2025_private_label_perceptions-18.png)
+
+![Figure 6. Private-label share of Finnish grocery sales 2016–2023 (Kuvio 1): stable at roughly a quarter of sales value. Source: Kilpailu- ja kuluttajavirasto (2025).](../evidence/screenshots/finnish_research/kkv/kkv_2025_private_label_sales_share-19.png)
+
+![Figure 7. The article's three-stage private-label maturity model. Source: Begley & McOuat (2020, p. 5).](../evidence/screenshots/mckinsey/mckinsey_2020_maturity_model-5.png)
 
 ### References (Part C)
 
