@@ -145,9 +145,9 @@ R-kioski appears to run a standardised core convenience range. Differences may s
 exist in what delivery platforms do not show (cigarettes, lottery, services); that
 remains a hypothesis, not an observation.
 
-![Figure 3. Wolt venue page of the central kiosk (R-kioski Helsinki Rautatieasema Scandic Grand Central), showing the menu categories sampled for the comparison. Delivery-platform listing, not in-store prices. Source: Wolt (2026a).](../evidence/screenshots/retailers/r_kioski/r_kioski_rautatieasema_wolt_menu.png)
+![Figure 3. Wolt venue page of the central kiosk (R-kioski Helsinki Rautatieasema Scandic Grand Central): menu categories and most-ordered products with prices. Delivery-platform listing, not in-store prices. Source: Wolt (2026a).](../evidence/screenshots/retailers/r_kioski/r_kioski_rautatieasema_wolt_menu.png)
 
-![Figure 4. Wolt venue page of the suburban-proxy kiosk (R-kioski Vuosaari Kaivonkatsojantie 13). The same menu structure as the central location. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_wolt_menu.png)
+![Figure 4. Wolt venue page of the suburban-proxy kiosk (R-kioski Vuosaari Kaivonkatsojantie 13): the same menu structure; the most-ordered list includes the dataset's kurpitsasiemensämpylä kalkkuna juusto (€4.50, 176 g), matching the recorded price. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_wolt_menu.png)
 
 ## 3.2. Which customer segments are similar or different for suburban and central R-kiosks? (200–300 words)
 
