@@ -28,38 +28,34 @@ The three retailers organise their own brands differently. Kesko uses one family
 
 Since I didn't visit stores, I compared how products are presented in the online catalogues. In both K-Ruoka and S-kaupat, private labels appear in the same category listings as national brands, and both sites let you filter by brand. One detail: in the K-Ruoka listing, Taffel had Plussa multi-buy promotions while the private-label products sat at their regular prices. But this is digital merchandising — it can't tell me anything about real shelf height or visibility in the store.
 
-**Slide 7 — Rautatieasema and Vuosaari listed the same six filled breads (~30 s)**
+**Slide 7 — R-kioski also sells R-branded sweets, sandwiches and baguettes (~30 s)**
 
-For R-kioski I compared a central station location with Vuosaari as a neighbourhood proxy. Before checking, I expected different food ranges — travel food in the centre, everyday items in the suburb. The Wolt menus showed the same six filled breads at exactly the same prices, from 3.90 to 4.60 euros. The Vuosaari screenshot even shows the turkey pumpkin-seed roll at 4.50, matching my dataset. Remember: this is delivery-menu evidence, not the full store assortment.
+The R-kioski delivery menus turned out to be more interesting than I expected. Yes, they list filled breads prepared on site — but they also revealed a wider R-branded range. R-karkit is the clearest example — four candy mixes, all three euros, listed at all three locations I checked. Notice the quiet unit-price difference: the 300-gram bags work out at 10 euros per kilo, the 250-gram bags at 12. The Punavuori menu also lists ten sandwiches and baguettes under R-branded names, from 4.20 to 4.80. One honest caveat: these are R-branded names in the listings; the menus alone don't prove legal trademark ownership.
 
-**Slide 8 — R-kioski also sells R-branded sweets, sandwiches and baguettes (~30 s)**
-
-Looking beyond the six filled breads, the menus revealed a wider R-branded range. R-karkit is the clearest example — four candy mixes, all three euros, listed at all three locations I checked. Notice the quiet unit-price difference: the 300-gram bags work out at 10 euros per kilo, the 250-gram bags at 12. The Punavuori menu also lists ten sandwiches and baguettes under R-branded names, from 4.20 to 4.80. One honest caveat: these are R-branded names in the listings; the menus alone don't prove legal trademark ownership.
-
-**Slide 9 — The R Patonki baguette cost 37.5% more (~30 s)**
+**Slide 8 — The R Patonki baguette cost 37.5% more (~30 s)**
 
 So how does that R-branded range price against a supermarket? K-Ruoka lists a Chef Lunden chicken Caesar baguette — same filling, same 200-gram weight — at 3.49 euros. The R Patonki equivalent costs 4.80, which is 37.5 percent more for the same weight. My interpretation: R-kioski is selling immediate availability in a transit location, not the cheapest everyday lunch. But I'm careful here — the formulations may differ, so this is a price comparison, not a quality judgement.
 
-**Slide 10 — Sello and Tripla (~30 s)**
+**Slide 9 — Sello and Tripla (~30 s)**
 
 Outside the digital research, two kiosks I use myself show how location shapes the format. Sello is a small, traditional kiosk — people grab something quick before the train. Tripla has been renovated into an open pass-through right by the platforms, with a proper self-service coffee station and meal combos; one combo I bought came with a free Red Bull. And a personal note: after nearly three years in Finland, R-kioski's blue and yellow has become a familiar, almost reassuring sight in cold, grey weather — a bit like a traveller spotting an inn through the snow, except the warm meal is a grilled-sausage hot dog and a coffee. These are my observations, not measurements.
 
-**Slide 11 — Finnish consumers consider price, quality and origin (~30 s)**
+**Slide 10 — Finnish consumers consider price, quality and origin (~30 s)**
 
 What do Finnish consumers actually think? In PTT's survey of almost 1,200 people, 63 percent consider private labels clearly cheaper and 42 percent consider the quality equal. But origin matters: 58 percent prefer a Finnish manufacturer brand over a foreign private label — and when both options are Finnish, preference shifts toward the private label. The Reddit discussion adds colour: people judge products individually, they check who actually manufactures them, and some worry about pressure on suppliers' margins. It's anecdotal, so I treat it as qualitative context, not measurement.
 
-**Slide 12 — Trying a product is not the same as buying it again (~30 s)**
+**Slide 11 — Trying a product is not the same as buying it again (~30 s)**
 
 The McKinsey article gave me the frame for interpreting all of this. During COVID, nearly 40 percent of surveyed US consumers tried new brands, and among those who switched to private labels, over 45 percent named price as the main reason. But trying is not the same as staying. The article's maturity model describes how retailers move from basic price-led ranges, through managing a portfolio of brands, to owning brands that compete on identity and quality. That distinction — trial versus loyalty — is exactly what my price comparisons cannot see. And this is US data from 2020, not Finland in 2026.
 
-**Slide 13 — Private labels held around 26% of Finnish food sales value (~30 s)**
+**Slide 12 — Private labels held around 26% of Finnish food sales value (~30 s)**
 
 Finally, the market-level picture from the Finnish competition authority. Between 2016 and 2023, private labels held roughly a quarter of Finnish food sales value — and that share stayed relatively stable even as the number of private-label products increased considerably. The chart also shows why precision matters: the value share is about a quarter, while the volume share is about a third — different measures. For me this is the most interesting number in the whole project: more products did not automatically mean a bigger share. The data doesn't tell me why — and I don't pretend it does.
 
-**Slide 14 — What I learned from the research (~35 s)**
+**Slide 13 — What I learned from the research (~35 s)**
 
-Four things I take from this assignment. Segmentation: location hints at who shops somewhere, but menus can't confirm it. Branding: the three retailers run genuinely different brand structures, and consumers judge products one by one — I didn't find a clear co-branded product. Packaging and placement: digital catalogues show a lot, but not the physical shelf. And methods: each source answers a different question, so I tried not to treat them as interchangeable. My own question shifted during the project — from "which product is cheaper" to "what makes someone choose it again when their usual brand is available?"
+Four things I take from this assignment. Segmentation: I expected a station kiosk and a neighbourhood kiosk to offer different food — the delivery menus listed the same six filled breads at the same prices. Location hints at who shops somewhere, but menus can't confirm it. Branding: the three retailers run genuinely different brand structures, and consumers judge products one by one — I didn't find a clear co-branded product. Packaging and placement: digital catalogues show a lot, but not the physical shelf. And methods: each source answers a different question, so I tried not to treat them as interchangeable. My own question shifted during the project — from "which product is cheaper" to "what makes someone choose it again when their usual brand is available?"
 
-**Slide 15 — Sources (~10 s)**
+**Slide 14 — Sources (~10 s)**
 
 These are the sources behind everything you've seen — the retailer catalogues, the three Wolt menus, the KKV and PTT research, the McKinsey article and the Reddit thread. The full dataset, code and evidence screenshots are in the GitHub repository if you want to verify any figure. Thank you.

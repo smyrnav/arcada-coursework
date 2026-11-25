@@ -242,28 +242,6 @@ para(tf, [('S-kaupat crisp category: Xtra, Coop and Kotimaista in the same grid 
 source_line(s, [('Online catalogue merchandising only — this says nothing about physical shelf height, facings or in-store visibility. Online listings, not shelf photographs. Sources: ', {}), ('K-Ruoka', {'link': 'https://www.k-ruoka.fi/kauppa/tuotehaku/makeiset-ja-naposteltavat/sipsit-ja-snacksit'}), (' · ', {}), ('S-kaupat', {'link': 'https://www.s-kaupat.fi/tuotteet/snacksit/sipsit/perunalastut'}), (' · accessed 24 Nov 2026', {})])
 notes(s, "Since I did not visit stores, I compared how products are presented in the online catalogues. In both K-Ruoka and S-kaupat, private labels appear in the same category listings as national brands, and both sites let you filter by brand. One detail: in the K-Ruoka listing, Taffel had Plussa multi-buy promotions while the private-label products sat at regular prices. But this is digital merchandising — it cannot tell me anything about real shelf height or visibility in the store.")
 
-# ---------------------------------------------------------------- slide 7: wolt identical menus
-s = slide()
-kicker_title(s, 'PART B · R-KIOSKI MENUS', 'Rautatieasema and Vuosaari listed the same six filled breads')
-w1 = EV / 'retailers' / 'r_kioski' / 'r_kioski_rautatieasema_wolt_menu.png'
-w2 = EV / 'retailers' / 'r_kioski' / 'r_kioski_vuosaari_wolt_menu.png'
-h_img = Inches(2.85)
-wi, _ = pic_h(w1, h_img)
-top = Inches(2.0)
-l1 = MARGIN
-l2 = l1 + wi + Inches(0.35)
-pic(s, w1, l1, top, width=wi, height=h_img)
-pic(s, w2, l2, top, width=wi, height=h_img)
-for l, lab in ((l1, 'CENTRAL — RAUTATIEASEMA (Scandic Grand Central)'), (l2, 'NEIGHBOURHOOD PROXY — VUOSAARI (Kaivonkatsojantie 13)')):
-    tf = box(s, l, top - Inches(0.32), wi, Inches(0.3))
-    para(tf, [(lab, {})], size=10.5, color=ACCENT, bold=True, first=True, space_after=0)
-panel(s, MARGIN, Inches(5.25), SW - 2 * MARGIN, Inches(1.35))
-tf = panel_text(s, MARGIN, Inches(5.25), SW - 2 * MARGIN, Inches(1.35))
-para(tf, [('Same six products, same prices: ', {'bold': True}), ('cheese croissant €4.40 · ham-and-cheese croissant €4.50 · turkey pumpkin-seed roll €4.50 · turkey pretzel €4.60 · cheese rye bread €3.90 · turkey-and-cheese rye bread €3.90.', {})], size=13, first=True, space_after=5, line=1.25)
-para(tf, [('I expected different assortments at a station kiosk and a neighbourhood kiosk. The menus showed no difference in the six sampled products.', {})], size=11.5, color=GRAY, space_after=0)
-source_line(s, [('Wolt delivery menus, 24 Nov 2026 — delivery availability only, not the full in-store range. Sources: ', {}), ('Wolt Rautatieasema', {'link': 'https://wolt.com/en/fin/helsinki/venue/r-kioski-helsinki-rautatieasema-scandic-grand-central'}), (' · ', {}), ('Wolt Vuosaari', {'link': 'https://wolt.com/fi/fin/helsinki/venue/r-kioski-helsinki-vuosaari-kaivonkatsojantie-13'})])
-notes(s, "For R-kioski I compared a central station location with Vuosaari as a neighbourhood proxy. Before checking, I expected different food ranges — travel food in the centre, everyday items in the suburb. The Wolt menus showed the same six filled breads at exactly the same prices, from 3.90 to 4.60 euros. The Vuosaari screenshot even shows the turkey pumpkin-seed roll at 4.50, matching my dataset. Remember: this is delivery-menu evidence, not the full store assortment.")
-
 # ---------------------------------------------------------------- slide 8: R-branded range
 s = slide()
 kicker_title(s, 'PART B · R-BRANDED PRODUCTS', 'R-kioski also sells R-branded sweets, sandwiches and baguettes')
@@ -286,7 +264,7 @@ para(tf, [('R-BRANDED SANDWICHES & BAGUETTES', {})], size=11, color=ACCENT, bold
 para(tf, [('R Patonki · R Kolmis · R rukiinen · R viljaisa', {})], size=13, space_after=4)
 para(tf, [('Ten sandwiches and baguettes at €4.20–4.80 on the Punavuori menu — chicken Caesar, ham and cheese, chicken-bacon-BBQ, tuna, tomato-mozzarella, vegetarian. Plus the six filled breads prepared on site, €3.90–4.60.', {})], size=11.5, color=GRAY, space_after=0, line=1.25)
 source_line(s, [('R-branded names in Wolt listings — the listings do not independently establish trademark ownership. Sources: Wolt menus, 24 Nov 2026.')])
-notes(s, "Looking beyond the six filled breads, the menus revealed a wider R-branded range. R-karkit is the clearest example — four candy mixes, all three euros, listed at all three locations I checked. Note the quiet unit-price difference: the 300-gram bags work out at 10 euros per kilo, the 250-gram bags at 12. The Punavuori menu also lists ten sandwiches and baguettes under R-branded names. One honest caveat: these are R-branded names in the listings; the menus alone do not prove legal trademark ownership.")
+notes(s, "The R-kioski delivery menus turned out to be more interesting than I expected. Yes, they list filled breads prepared on site — but they also revealed a wider R-branded range. R-karkit is the clearest example — four candy mixes, all three euros, listed at all three locations I checked. Note the quiet unit-price difference: the 300-gram bags work out at 10 euros per kilo, the 250-gram bags at 12. The Punavuori menu also lists ten sandwiches and baguettes under R-branded names, from 4.20 to 4.80 euros. One honest caveat: these are R-branded names in the listings; the menus alone do not prove legal trademark ownership.")
 
 # ---------------------------------------------------------------- slide 9: R Patonki comparison
 s = slide()
@@ -409,7 +387,7 @@ notes(s, "Finally, the market-level picture from the Finnish competition authori
 s = slide()
 kicker_title(s, 'PART D · REFLECTION', 'What I learned from the research')
 blocks = [
-    ('SEGMENTATION', 'Location suggests possible customer groups — but confirming them needs observation or sales data, not delivery menus.'),
+    ('SEGMENTATION', 'I expected different ranges at a station kiosk and a neighbourhood kiosk — the delivery menus were identical. Location suggests segments, but confirming them needs observation or sales data.'),
     ('BRANDING', 'Kesko, S Group and Lidl organise own brands differently, and consumers judge individual products, not whole ranges. I found no clear co-branded product.'),
     ('PACKAGING & PLACEMENT', 'Catalogues show prices, pack sizes, filters and promotions — not physical shelf position, packaging in use or in-store visibility.'),
     ('RESEARCH METHODS', 'Catalogues, Wolt menus, the PTT survey and Reddit comments each answer different questions. Their evidence is not interchangeable.'),
@@ -425,7 +403,7 @@ for i, (h, b) in enumerate(blocks):
 panel(s, MARGIN, Inches(6.1), SW - 2 * MARGIN, Inches(0.95), fill=RGBColor(0xEA, 0xF0, 0xF6))
 tf = panel_text(s, MARGIN, Inches(6.1), SW - 2 * MARGIN, Inches(0.95))
 para(tf, [('The question I am left with:  what makes a customer choose an own-brand product again when their usual brand is available?', {})], size=15, color=ACCENT, bold=True, first=True, align=PP_ALIGN.CENTER, space_after=0)
-notes(s, "Four things I take from this assignment. Segmentation: location hints at who shops somewhere, but menus cannot confirm it. Branding: the three retailers run genuinely different brand structures, and consumers judge products one by one — I did not find a clear co-branded product. Packaging and placement: digital catalogues show a lot, but not the physical shelf. And methods: each source answers a different question, so I tried not to treat them as interchangeable. My own question shifted during the project — from which product is cheaper, to what makes someone choose it again when their usual brand is available.")
+notes(s, "Four things I take from this assignment. Segmentation: I expected a station kiosk and a neighbourhood kiosk to offer different food — the delivery menus listed the same six filled breads at the same prices. Location hints at who shops somewhere, but menus cannot confirm it. Branding: the three retailers run genuinely different brand structures, and consumers judge products one by one — I did not find a clear co-branded product. Packaging and placement: digital catalogues show a lot, but not the physical shelf. And methods: each source answers a different question, so I tried not to treat them as interchangeable. My own question shifted during the project — from which product is cheaper, to what makes someone choose it again when their usual brand is available.")
 
 # ---------------------------------------------------------------- slide 15: sources
 s = slide()
