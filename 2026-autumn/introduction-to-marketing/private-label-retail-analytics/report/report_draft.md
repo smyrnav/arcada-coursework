@@ -1,229 +1,234 @@
 # Introduction to Marketing — Group Work 2026
 
-**Smyrna V.** (individual submission, agreed with the teacher)
+**Smyrna V.** (individual submission)
 
-**Method.** I completed the research digitally instead of physical mystery shopping:
-retailer online catalogues, product pages and delivery-platform menus for Helsinki,
-collected 24 November 2026. Store visits, shelf photographs and customer observation
-were not carried out, and nothing in this report claims otherwise. Part C is the agreed
-article reflection instead of the 25.11 classroom survey. Data, code and sources:
+**Method.** I completed this assignment individually. Store visits, shelf photographs
+and customer observation were not carried out; the research is a digital audit of
+retailer online catalogues, product pages and delivery-platform menus, collected
+24 November 2026. The teacher suggested individual completion and agreed that a
+reflection on the McKinsey article replaces the 25.11 classroom survey (Part C).
+Replacing the physical observations with digital research is my own choice, disclosed
+here — it was not separately approved. The intended comparison location is Helsinki.
+One exception: the earliest K-Ruoka captures had the store set to K-Citymarket Iso
+Omena (Espoo); the prices used in the comparison were re-verified on 24 November at
+K-Citymarket Easton, Helsinki. All data, code, screenshots and sources:
 [github.com/smyrnav/arcada-coursework](https://github.com/smyrnav/arcada-coursework/tree/main/2026-autumn/introduction-to-marketing/private-label-retail-analytics).
-The report structure follows the course template (Arcada University of Applied Sciences 2026).
 
 # PART A: Retail (Kesko, S-group, Lidl), private labels
 
-## 2.1. What are the own-brand (private-label) products in Kesko's grocery stores?
+## 2.1. Grocery stores within KESKO — what are the own-brand products?
 
-Kesko organises its grocery own brands as a tiered family around **Pirkka** (Kesko 2026):
+Kesko's grocery own brands form a tiered family around **Pirkka** (Kesko 2023): Pirkka
+is the mainstream range (Kesko states it covers more than 2,800 products), **Pirkka
+Parhaat** the premium range and **K-Menu** the low-price range. The same three ranges
+are listed on K-Ruoka's own-brand pages (K-Ruoka 2026b).
 
-| Brand | Positioning | Example from our sample |
-|---|---|---|
-| Pirkka | Mainstream; Kesko states the range covers 2,800+ products | Pirkka Original perunalastu 275 g — €2.19 (€7.96/kg) |
-| Pirkka Parhaat | Premium tier | — |
-| K-Menu | Low-price tier | — |
+In the sampled snack category, Pirkka Original perunalastu (275 g) was listed at €2.19
+(€7.96/kg) at K-Citymarket Easton, Helsinki, on 24.11.2026 (K-Ruoka 2026a). The Taffel
+Classic reference listing in the same catalogue was €11.12/kg, so the sampled Pirkka
+product was about 28% cheaper per kilogram. One category comparison does not by itself
+establish the positioning of the whole Pirkka range. The gap matches what the McKinsey
+article recommends: a deliberate, maintained price difference against a national-brand
+reference (Begley & McOuat 2020, p. 7).
 
-In the K-Ruoka catalogue, the Pirkka crisps cost 28.4% less per kg than the Taffel
-benchmark listed in the same category (K-Ruoka 2026). Pirkka is positioned as a
-straightforward cheaper equivalent of the national brand. The McKinsey article
-recommends exactly this kind of deliberate price gap (Begley & McOuat 2020, p. 7).
+![Figure 1. K-Ruoka snack listing filtered to Pirkka products (own-brand filter). The Pirkka Original price (€2.19, €7.96/kg) matches the dataset; the store shown is Iso Omena, and the price was re-verified at K-Citymarket Easton, Helsinki. Online catalogue listing, not a shelf photograph. Source: K-Ruoka (2026b).](../evidence/screenshots/retailers/kesko/kesko_pirkka_product_listing.png)
 
-![Figure 1. K-Ruoka snack listing filtered to Pirkka products. Prices match our dataset (Pirkka Original 275 g, €2.19, €7.96/kg); note the selected store shown is K-Citymarket Iso Omena (Espoo), not a confirmed Helsinki store. Online catalogue listing, not a shelf photograph. Source: K-Ruoka (2026).](../evidence/screenshots/retailers/kesko/kesko_pirkka_product_listing.png)
-
-## 2.2. What are the own-brand products in S Group's grocery stores?
+## 2.2. Grocery stores within the S-group — what are the own-brand products?
 
 S Group uses several separate own brands rather than one family (S-kaupat 2026a):
+**Xtra** (affordable everyday products), **Kotimaista** (Finnish food products) and
+**Coop** (a Nordic brand built around the quality–price ratio).
 
-| Brand | Positioning | Example from our sample (S-kaupat 2026b) |
-|---|---|---|
-| Xtra | Lowest price | Xtra suolatut perunalastut 250 g — €1.71 (€6.84/kg) |
-| Coop | Mainstream | Coop suolatut perunalastut 300 g — €2.35 (€7.83/kg) |
-| Kotimaista | Finnish origin | Kotimaista suolatut sipsit 200 g — €1.99 (€9.95/kg) |
+In the sampled crisp category (S-kaupat, 24.11.2026): Xtra suolatut perunalastut
+€1.71/250 g (€6.84/kg), Coop suolatut perunalastut €2.35/300 g (€7.83/kg) and
+Kotimaista suolatut sipsit €1.99/200 g (€9.95/kg), with the Taffel reference listing at
+€10.19/kg (S-kaupat 2026b). Three own brands at three price levels inside one category:
+Xtra 32.9% and Coop 23.2% below the Taffel reference per kilogram. This resembles what
+the article calls portfolio management — several own brands aimed at different
+customers rather than one cheap alternative (Begley & McOuat 2020, p. 5).
 
-All three appear in the same S-kaupat crisp category next to national brands, against
-Taffel at €10.19/kg (S-kaupat 2026b). Three own brands at three price levels inside one
-crisp category looks like what the article calls portfolio management — several own
-brands aimed at different customers rather than one cheap alternative (Begley & McOuat
-2020, p. 5).
+![Figure 2. S-kaupat crisp category listing: Xtra, Coop and Kotimaista appear in the same grid as Taffel, Estrella and Pringles. Prices match the dataset. Online catalogue listing, not a shelf photograph. Source: S-kaupat (2026b).](../evidence/screenshots/retailers/s_group/s_group_xtra_product_listing.png)
 
-![Figure 2. S-kaupat crisp category listing: Xtra, Coop and Kotimaista appear in the same grid as Taffel and other national brands. Prices match our dataset. Online catalogue listing, not a shelf photograph. Source: S-kaupat (2026b).](../evidence/screenshots/retailers/s_group/s_group_xtra_product_listing.png)
+## 2.3. Lidl's grocery stores — what are the own-brand products?
 
-## 2.3. What are the own-brand products in Lidl's grocery stores?
+KKV's research dataset, which covers January 2015 to April 2023, identified more than
+150 Lidl own-brand names (Kilpailu- ja kuluttajavirasto 2025). That is a historical
+count; it does not show how many own brands Lidl carries in 2026. In the current online
+assortment I found **Snack Day** and **Deluxe** snacks — both marked "Erä", meaning
+limited batches rather than permanent products, and both product pages have since gone
+offline (Lidl 2026a; Lidl 2026b) — plus **Favorina** seasonal sweets in the current
+snacks category (Lidl 2026c) and the **Kartanon** and **Koskikylän** ready-meal ranges,
+which Lidl presents as own brands built around Finnish origin (Lidl 2026d). Lidl's
+public pages do not list current prices for most of these, and my sample has no
+national-brand comparator at Lidl, so no price pair was built for it.
 
-Lidl's own brands dominate its assortment. The Finnish Competition and Consumer
-Authority identified **more than 150 Lidl private-label brands** in its 2025 research
-dataset — many category-specific labels rather than a single store brand
-(Kilpailu- ja kuluttajavirasto 2025).
+![Figure 3. Lidl's snacks and sweets category page (37 products listed), showing current own-brand products such as Favorina. Source: Lidl (2026c).](../evidence/screenshots/retailers/lidl/lidl_snacks_category.png)
 
-In our snack sample we found **Snack Day** (truffle-flavoured crisps, €2.49/150 g)
-(Lidl 2026a) and **Deluxe** (premium-tier crisps, €1.99/150 g) (Lidl 2026b). Both Lidl
-product pages were older captures, so these prices are indicative only. Our sample
-contains no national-brand comparator at Lidl, so no price pair could be built for it.
-Lidl's own brands largely *are* the assortment; the article notes that retailers built
-this way can win loyalty almost entirely through their private labels (Begley & McOuat
-2020, p. 8).
+## 2.4. In how many product categories did you find the own brands? Product examples
 
-## 2.4. In how many product categories did you find the own brands in each store type? Product examples?
+I verified own-brand products in **two broad product categories per retailer**, so the
+answer falls in the 0–5 category band. I did not count the full product ranges.
 
-Our digital sample verified own brands in **one product category — snacks — at all
-three retailers**. We did not examine the full product ranges, so the total number of
-categories cannot be established from this data. The retailers' own-brand pages indicate
-much wider ranges (Kesko 2026; S-kaupat 2026a).
+Two examples per chain, from different categories (online catalogue images, not
+mystery-shopping photographs):
 
-Two example products per chain, from different snack subcategories:
+| Retailer | Product | Category | Price (24.11.2026) |
+|---|---|---|---|
+| Kesko (K-Citymarket Easton) | Pirkka Original perunalastu 275 g | snacks | €2.19 (€7.96/kg) |
+| Kesko (K-Citymarket Easton) | Pirkka suomalainen kevytmaito 1 l | dairy | €0.99 (€0.99/l) |
+| S Group (S-kaupat) | Xtra suolatut perunalastut 250 g | snacks | €1.71 (€6.84/kg) |
+| S Group (S-kaupat) | Kotimaista laktoositon 3 % maitojuoma 1 l | dairy | €1.65 (€1.65/l) |
+| Lidl | Favorina filled gingerbread hearts | snacks/sweets | seasonal listing, no price shown online |
+| Lidl | Kartanon ready meals | ready meals | brand page only; no current product listing or price online |
 
-| Retailer | Product | Subcategory | Price | Unit price |
-|---|---|---|---|---|
-| Kesko | Pirkka Original perunalastu 275 g | plain crisps | €2.19 | €7.96/kg |
-| Kesko | Pirkka salted snack 175 g | seasoned snack | €1.99 | €11.37/kg |
-| S Group | Xtra suolatut perunalastut 250 g | plain crisps | €1.71 | €6.84/kg |
-| S Group | Coop maalaisperunalastut merisuola 175 g | country-style crisps | €1.65 | €9.43/kg |
-| Lidl | Snack Day tryffelinmakuinen perunalastu 150 g | flavoured crisps | €2.49 | €16.60/kg |
-| Lidl | Snack Day suolatikut 250 g | salted pretzel sticks | €0.99 (promo) | €3.96/kg |
+(K-Ruoka 2026a; S-kaupat 2026b; Lidl 2026c; Lidl 2026d.)
 
-(K-Ruoka 2026; S-kaupat 2026b; Lidl 2026a; FeedMyCart 2026. Catalogue images exist at
-the source URLs; they are not physical store photographs.)
+![Figure 4a. Pirkka Original perunalastu — online catalogue image, K-Ruoka.](../evidence/screenshots/products/p1_kesko_pirkka_crisps.png)
+
+![Figure 4b. Pirkka suomalainen kevytmaito — online catalogue image, K-Ruoka.](../evidence/screenshots/products/p2_kesko_pirkka_milk.png)
+
+![Figure 4c. Xtra suolatut perunalastut — online catalogue image, S-kaupat.](../evidence/screenshots/products/p3_sgroup_xtra_crisps.png)
+
+![Figure 4d. Kotimaista maitojuoma — online catalogue image, S-kaupat.](../evidence/screenshots/products/p4_sgroup_kotimaista_milk.png)
+
+![Figure 4e. Favorina seasonal snacks — online catalogue image, Lidl.](../evidence/screenshots/products/p5_lidl_favorina.png)
+
+![Figure 4f. Kartanon ready-meal range — Lidl's brand page (no product-level listing available). Source: Lidl (2026d).](../evidence/screenshots/products/p6_lidl_kartanon.png)
 
 ![Chart: private-label vs national-brand unit prices](../outputs/charts/01_price_pairs.png)
 
-![Chart: all sampled products by unit price](../outputs/charts/02_unit_prices_by_product.png)
+![Chart: sampled products by unit price, regular prices only](../outputs/charts/02_unit_prices_by_product.png)
 
-## 2.5. Where are own brands positioned compared to regular brands? (100–150 words)
+## 2.5. Shelf positions: own brands compared to regular brands (100–150 words)
 
-Physical shelf placement was not assessed. The digital equivalent — catalogue
-merchandising — shows this: in both K-Ruoka and S-kaupat online category listings,
-private-label products appear **interleaved with national brands in the same category
-grid**, not separated into a "cheap" section. Both catalogues also offer own-brand
-filter options, which makes the own brands easy to find (K-Ruoka 2026; S-kaupat 2026b).
-One detail stands out: the national benchmark (Taffel) carried a Plussa multi-buy
-promotion in the K-Ruoka listing, while the private labels held plain regular prices.
-This matches the article's observation that national brands rely on promotions while
-private labels hold a standing price gap (Begley & McOuat 2020, p. 7). Whether this
-digital parity matches physical shelf placement remains unverified.
+Physical shelf positions were not assessed. The digital substitute is catalogue
+merchandising. In the unfiltered S-kaupat crisp listing, Xtra, Coop and Kotimaista
+appear in the same product grid as Taffel, Estrella and Pringles (S-kaupat 2026b).
+At K-Ruoka (K-Citymarket Easton), the default ordering showed promoted national brands
+with Plussa offers first, while own brands appeared further down and through the
+own-brand filter (K-Ruoka 2026a; K-Ruoka 2026b). One Taffel multi-buy offer was
+visible; a single offer does not show how national brands generally use promotions.
+Digital listing order does not prove physical shelf position.
 
-## 2.6. Summary of Part A: what surprised us? (150–200 words)
+![Figure 5. Unfiltered crisp listing at K-Citymarket Easton (Helsinki): promoted national brands lead the default ordering. Source: K-Ruoka (2026a).](../evidence/screenshots/retailers/kesko/kesko_kcitymarket_easton_unfiltered_crisps.png)
 
-Three findings stand out. First, the private-label price gap is consistent in our
-sample: 23–33% per kg below the Taffel benchmark in both chains that stock it. Second,
-the three chains clearly use different approaches — Kesko's tiered Pirkka family,
-S Group's three separate own brands inside one crisp category, and Lidl's
-own-label-dominated assortment are genuinely different strategies, not cosmetic
-variants. What surprised me most was finding that kind of brand-portfolio thinking in
-something as ordinary as crisps; the article treats exactly this as a sign of a more
-developed private-label market (Begley & McOuat 2020, p. 5). Third, the data shows its
-own limits: Lidl could not be price-benchmarked because our sample has no
-national-brand comparator for it, and without store-verified prices the exact Helsinki
-gaps remain indicative. The data cannot show whether shoppers actually choose these
-products — positioning is visible, preference is not. A short physical verification
-visit would complement the digital audit well, and the dataset is structured so that
-store-verified prices can simply be appended later.
+![Figure 6. Search results for "perunalastu" at the same Helsinki store: Pirkka products appear beside national brands. Source: K-Ruoka (2026a).](../evidence/screenshots/retailers/kesko/kesko_easton_perunalastu_search_mixed.png)
+
+## 2.6. Summarise Part A (150–200 words)
+
+Three findings stand out for me. First, the private-label price gap is consistent in my
+sample: 23–33% per kilogram below the Taffel reference in both chains that stock it.
+Second, the three chains use clearly different approaches — Kesko's tiered Pirkka
+family, S Group's three own brands inside one crisp category, and Lidl's mix of
+limited-batch snack labels and origin-focused ready-meal brands. What surprised me most
+was finding three S Group own brands at three price levels in something as ordinary as
+crisps; the article treats exactly this as a sign of a more developed private-label
+market (Begley & McOuat 2020, p. 5). Third, the sample shows its own limits: Lidl could
+not be price-compared because I found no national-brand comparator, the Lidl prices I
+had were from limited batches or older captures, and one early capture used an Espoo
+store before I re-verified prices in Helsinki. My data shows how products are priced
+and positioned; it cannot show whether customers choose them.
 
 ### References (Part A)
 
 - Arcada University of Applied Sciences (2026) *Group work template, Introduction to Marketing 2026* [course assignment template].
 - Begley, S. & McOuat, A. (2020) *Turning private labels into powerhouse brands*. McKinsey & Company, October 2020. Available at: [https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands](https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands) (Accessed: 24 November 2026).
-- FeedMyCart (2026) *Lidl Finland — current offers* [offer aggregator]. Available at: [https://feedmycart.nl/fi/countries/finland/lidl/](https://feedmycart.nl/fi/countries/finland/lidl/) (Accessed: 24 November 2026). Promotional price observation dated 23 November 2026.
-- Kesko (2026) *K Group's own grocery store brands: Pirkka and K-Menu*. Available at: [https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/](https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/) (Accessed: 24 November 2026).
-- Kilpailu- ja kuluttajavirasto (2025) *Kaupan omat merkit eli private label -tuotteet elintarvikemarkkinoilla*. Tutkimusraportteja 3/2025. Available at: [https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/](https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/) (Accessed: 24 November 2026).
-- K-Ruoka (2026) *Makeiset ja naposteltavat: sipsit ja snacksit* [online product catalogue]. Available at: [https://www.k-ruoka.fi/kauppa/tuotehaku/makeiset-ja-naposteltavat/sipsit-ja-snacksit](https://www.k-ruoka.fi/kauppa/tuotehaku/makeiset-ja-naposteltavat/sipsit-ja-snacksit) (Accessed: 24 November 2026).
-- Lidl (2026a) *Snack Day tryffelinmakuinen perunalastu 150 g* [product page]. Available at: [https://www.lidl.fi/p/snack-day-tryffelinmakuinen-perunalastu/p11139827](https://www.lidl.fi/p/snack-day-tryffelinmakuinen-perunalastu/p11139827) (Accessed: 24 November 2026).
-- Lidl (2026b) *Deluxe perunalastut 150 g* [product page]. Available at: [https://www.lidl.fi/p/deluxe-perunalastut/p11041036](https://www.lidl.fi/p/deluxe-perunalastut/p11041036) (Accessed: 24 November 2026).
+- Kesko (2023) *K Group's own grocery store brands: Pirkka and K-Menu*. Available at: [https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/](https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/) (Accessed: 24 November 2026).
+- Kilpailu- ja kuluttajavirasto (2025) *Kaupan omat merkit eli private label -tuotteet elintarvikemarkkinoilla*. Tutkimusraportteja 3/2025. Available at: [https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/](https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/) (Accessed: 24 November 2026). Dataset covers January 2015–April 2023.
+- K-Ruoka (2026a) *Tuotehaku: perunalastu, K-Citymarket Helsinki Easton* [online catalogue, selected store]. Available at: [https://www.k-ruoka.fi/kauppa/tuotehaku?haku=perunalastu](https://www.k-ruoka.fi/kauppa/tuotehaku?haku=perunalastu) (Accessed: 24 November 2026).
+- K-Ruoka (2026b) *Makeiset ja naposteltavat: sipsit ja snacksit* [online product catalogue]. Available at: [https://www.k-ruoka.fi/kauppa/tuotehaku/makeiset-ja-naposteltavat/sipsit-ja-snacksit](https://www.k-ruoka.fi/kauppa/tuotehaku/makeiset-ja-naposteltavat/sipsit-ja-snacksit) (Accessed: 24 November 2026).
+- Lidl (2026a) *Snack Day tryffelinmakuinen perunalastu 150 g* [product page, "Erä" limited batch; offline at access date]. Available at: [https://www.lidl.fi/p/snack-day-tryffelinmakuinen-perunalastu/p11139827](https://www.lidl.fi/p/snack-day-tryffelinmakuinen-perunalastu/p11139827) (Accessed: 24 November 2026).
+- Lidl (2026b) *Deluxe perunalastut 150 g* [product page, "Erä" limited batch; offline at access date]. Available at: [https://www.lidl.fi/p/deluxe-perunalastut/p11041036](https://www.lidl.fi/p/deluxe-perunalastut/p11041036) (Accessed: 24 November 2026).
+- Lidl (2026c) *Makeiset ja snacksit* [category page]. Available at: [https://www.lidl.fi/h/makeiset-ja-snacksit/h10096205](https://www.lidl.fi/h/makeiset-ja-snacksit/h10096205) (Accessed: 24 November 2026).
+- Lidl (2026d) *Kartanon* [own-brand page]. Available at: [https://www.lidl.fi/c/kartanon/s10034513](https://www.lidl.fi/c/kartanon/s10034513) (Accessed: 24 November 2026).
 - S-kaupat (2026a) *Omat merkit* [own-brand overview]. Available at: [https://www.s-kaupat.fi/sivu/omat-merkit](https://www.s-kaupat.fi/sivu/omat-merkit) (Accessed: 24 November 2026).
 - S-kaupat (2026b) *Perunalastut — tuotteet* [online product catalogue]. Available at: [https://www.s-kaupat.fi/tuotteet/snacksit/sipsit/perunalastut](https://www.s-kaupat.fi/tuotteet/snacksit/sipsit/perunalastut) (Accessed: 24 November 2026).
 
 # PART B: R-kioski segmentation and target groups
 
-## 3.1. Is the product range the same or different in a suburban and a central R-kioski? (100–150 words)
+## 3.1. The R-kioski product range: suburban vs central (100–150 words)
 
-Before checking any data, my prediction was that a central station kiosk
-(Rautatieasema) would emphasise grab-and-go items for people in transit, while a
-suburban kiosk would lean toward everyday top-up groceries, lottery and parcel services
-for local residents. The digital evidence partly contradicts this: the Wolt menus of
-the central Rautatieasema kiosk and the suburban-proxy Vuosaari kiosk list the **same
-six filled-bread products at identical prices** (€3.90–4.60) (Wolt 2026a; Wolt 2026b).
-In the digitally visible assortment there is no location-based difference at all —
-R-kioski appears to run a standardised core convenience range. Differences may still
-exist in what delivery platforms do not show (cigarettes, lottery, services); that
-remains a hypothesis, not an observation.
+My prediction before checking was that a central station kiosk (Rautatieasema) would
+emphasise grab-and-go products, while a suburban kiosk would lean toward everyday
+top-up shopping and services. The digital evidence partly contradicts this: the Wolt
+menus of the central Rautatieasema kiosk and the suburban-proxy Vuosaari kiosk list
+the same six filled breads at identical prices (Wolt 2026a; Wolt 2026b):
 
-![Figure 3. Wolt venue page of the central kiosk (R-kioski Helsinki Rautatieasema Scandic Grand Central): menu categories and most-ordered products with prices. Delivery-platform listing, not in-store prices. Source: Wolt (2026a).](../evidence/screenshots/retailers/r_kioski/r_kioski_rautatieasema_wolt_menu.png)
+| Product | Weight | Price (both locations) |
+|---|---|---|
+| Croissant, cheese filling | 147 g | €4.40 |
+| Croissant, ham and cheese | 170 g | €4.50 |
+| Pumpkin-seed roll, turkey and cheese | 176 g | €4.50 |
+| Pretzel, turkey and cheese | 191 g | €4.60 |
+| Rye bread, cheese filling | 150 g | €3.90 |
+| Rye bread, turkey and cheese | 161 g | €3.90 |
 
-![Figure 4. Wolt venue page of the suburban-proxy kiosk (R-kioski Vuosaari Kaivonkatsojantie 13): the same menu structure; the most-ordered list includes the dataset's kurpitsasiemensämpylä kalkkuna juusto (€4.50, 176 g), matching the recorded price. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_wolt_menu.png)
+The menus establish the listed delivery assortment only; they do not prove the physical
+kiosks carry identical ranges. Vuosaari remains a suburban proxy — I could not verify
+the stand-alone format the template describes.
 
-## 3.2. Which customer segments are similar or different for suburban and central R-kiosks? (200–300 words)
+## 3.2. Which customer segments are similar or different? (200–300 words)
 
-These are **predicted segments from public information and reasoning, not observed
-customers**.
+These segments are hypotheses from public information and reasoning, not observations.
 
-**Central location (Rautatieasema).** *Commuters and travellers* dominate: the defining
-need is speed — a filled croissant or coffee consumed on a train, bought in under two
-minutes. Price sensitivity is low relative to time sensitivity; the purchase is
-occasion-driven ("I have ten minutes before departure"). A second segment is
-*city-centre workers and students* treating the kiosk as a fallback lunch or snack
-option. Demand peaks around transport timetables, not mealtimes at home.
+**Central location (Rautatieasema).** I would expect people in transit — commuters and
+travellers buying something immediately before a departure, where speed and location
+matter more than price. A second likely group is people working or studying nearby who
+use the kiosk as a quick lunch or snack option. Demand probably follows transport
+timetables more than home mealtimes.
 
-**Suburban location (Vuosaari proxy).** *Local residents* on routine errands: the kiosk
-is a top-up stop between supermarket visits, and the need mix shifts toward services —
-parcels, lottery, tobacco, a forgotten ingredient. *Students and young people* form a
-second segment with small-basket, frequent, price-aware snack purchases; for them the
-€3.90–4.60 filled breads compete directly with fast food and grocery ready meals, so
-the value proposition is convenience per euro, not speed. *Evening and weekend demand*
-likely weighs heavier than the commuter rush.
+**Suburban location (Vuosaari proxy).** I would expect local residents on routine
+errands: top-up purchases between supermarket visits, plus services such as parcels
+and lottery. Because a supermarket is usually nearby, these customers have a cheaper
+alternative for the same products, so kiosk purchases there probably depend more on
+opening hours and distance than in the city centre.
 
-**Shared segment:** convenience-oriented buyers who value immediate consumption over
-price in both locations — which is precisely the segment the identical standardised
-menu serves. The identical pricing suggests R-kioski optimises for this shared need
-rather than differentiating by location, at least in the delivered range. Testing
-these hypotheses would require the observation the template originally asked for:
-counting who actually buys what, when, at each location.
+**Shared segment.** In both locations, the kiosk serves people who want something
+immediately and are willing to pay for that. The identical menus and prices suggest
+R-kioski standardises its delivered range for this shared need rather than adapting it
+by location.
 
-## 3.3. Mystery shopping: do the observations match the predicted segments? (150–200 words)
+These are predictions. Testing them would require the observation the template
+originally asked for: watching who actually buys what, and when, at each location.
 
-**No customer observations were made.** No kiosks were visited, no photographs were
-taken, and nothing in this section is fieldwork. The digital substitute compares the
-two locations' publicly listed Wolt menus (six filled-bread products each) and finds
-them identical in product and price (Wolt 2026a; Wolt 2026b). That is genuine but
-narrow evidence: delivery menus show the deliverable core range, not the full store,
-the shelf layout, or who shops there. The segment definitions in 3.2 therefore remain
-hypotheses consistent with — but not confirmed by — the available data. If fieldwork
-were added later, the first test would be basket observation at both locations across a
-weekday: whether central purchases cluster on single grab-and-go items at commute
-peaks, and suburban baskets on multi-item top-ups in evenings, as predicted. Until
-then, this section is secondary digital research with clearly labelled
-hypotheses, not mystery shopping. The limitation is disclosed here rather than
-hidden behind borrowed observations.
+## 3.3. Mystery shopping — what was done instead (150–200 words)
 
-## 3.4.1. What are R-kioski's own-brand products, in which categories, and do both locations have the same number?
+No customer observations were made. I did not visit the kiosks, took no photographs,
+and nothing in this section is fieldwork. The digital substitute compares the two
+locations' publicly listed Wolt menus and finds them identical in product and price
+(Wolt 2026a; Wolt 2026b). That is genuine but narrow evidence: delivery menus show the
+deliverable core range, not the full store, the shelf layout, or who shops there. The
+segments in 3.2 therefore remain hypotheses consistent with — but not confirmed by —
+the available data. If fieldwork were added later, the first test would be basket
+observation at both locations across a weekday: whether central purchases cluster on
+single grab-and-go items at commute peaks, and suburban baskets on multi-item top-ups
+in evenings, as predicted. Until then, this section is secondary digital research with
+clearly labelled hypotheses, not mystery shopping.
 
-Public digital evidence on R-kioski's own brands is thin. I report this as a data gap
-instead of guessing. In the sampled Wolt menus, the filled breads (croissants, pretzel,
-rye breads) are sold under the R-kioski venue without a separate manufacturer brand
-shown. This is *consistent with* own-brand production but does not prove trademark
-ownership — under the Finnish definition, a private label is determined by brand
-ownership/control, not by shelf presence (Kilpailu- ja kuluttajavirasto 2025). Both
-sampled locations list the same six items at identical prices, so **no difference in
-own-brand count between the central and suburban location was found in the digital
-assortment** (Wolt 2026a; Wolt 2026b). Verifying R-kioski's own-brand range properly
-would require in-store checking or official assortment information that is not publicly
-indexed.
+## 3.4.1. R-kioski's own brands: what are they called, in which categories, same number in both locations?
 
-## 3.4.2. Do you find R-kioski-brand sandwiches and similar snacks? Competitors, packaging, pricing, choice — and your own opinion?
+Public digital evidence on R-kioski's own brands is thin, and I report this as a data
+gap instead of guessing. In the sampled Wolt menus, the filled breads are sold under
+the R-kioski venue with no separate manufacturer brand shown. This is consistent with
+own-brand production but does not prove trademark ownership — under the Finnish
+definition, a private label is determined by brand ownership or control, not by shelf
+presence (Kilpailu- ja kuluttajavirasto 2025). Both locations list the same six items
+at identical prices, so I found no difference in own-brand count between the central
+and suburban location in the digital assortment (Wolt 2026a; Wolt 2026b).
 
-The sampled range is six filled breads: cheese and ham-cheese croissants, a
-turkey-cheese pumpkin-seed roll, a turkey-cheese pretzel, and cheese or turkey-cheese
-rye breads — €3.90–4.60 per item, €24.08–29.93 per kg (Wolt 2026a; Wolt 2026b).
-Competing brands, packaging and the availability of unpackaged fresh sandwiches could
-not be verified from public digital sources and are not assessed. Taste is likewise not
-assessed; I did not taste the products for this report. What the data does show: at
-€24–30 per kg, these items cost several times the per-kg price of the supermarket
-private-label crisps in Part A (€6.84–9.95/kg) — a visible convenience premium. My own
-view: that premium is the entire business model in one number. Nobody pays €4.40 for
-147 g of croissant because it wins a taste comparison; they pay for location, immediacy
-and not having to plan. The identical central/suburban pricing supports this — the
-product being sold is convenience, and convenience costs the same everywhere.
+## 3.4.2. R-kioski sandwiches and snacks: competitors, packaging, pricing, choice — and my own opinion
 
-![Figure 5. Crisp ("perunalastut") search results at the Vuosaari kiosk on Wolt: national-brand snacks at kiosk prices — e.g. Pringles 70 g at €3.20 (€45.71/kg), roughly 4–6× the per-kg price of the same category in supermarkets. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_perunalastut_search.png)
+The sampled range is six filled breads at €3.90–4.60 per item (Wolt 2026a; Wolt 2026b).
+Competing brands, packaging and unpackaged fresh sandwiches could not be verified from
+public digital sources, and I did not taste the products, so those parts of the
+question are unanswered rather than guessed. One same-category comparison is possible:
+the kiosk's national-brand crisps cost several times more per kilogram than crisps in
+the supermarkets of Part A — for example Pringles 70 g at €3.20 (€45.71/kg) at the
+Vuosaari kiosk (Wolt 2026b), against roughly €7–11/kg at K-Ruoka and S-kaupat. My own
+view: kiosk prices are not about the product. Customers pay for getting something
+immediately, exactly where they already are.
 
-![Chart: R-kioski central vs suburban menu prices](../outputs/charts/03_rkioski_central_vs_suburban.png)
+![Figure 7. Crisp ("perunalastut") search results at the Vuosaari kiosk on Wolt: national-brand snacks at kiosk prices. Source: Wolt (2026b).](../evidence/screenshots/retailers/r_kioski/r_kioski_vuosaari_perunalastut_search.png)
 
 ### References (Part B)
 
@@ -246,72 +251,72 @@ The authors argue that retailers should think more carefully about what their pr
 labels actually offer. A lower price is one reason to choose a product, but it is not
 much of an identity. I found their discussion of different price tiers and customer
 needs particularly relevant when looking at Kesko and S Group. Both have several
-private-label brands rather than relying on one brand to serve everyone (Kesko 2026;
+private-label brands rather than relying on one brand to serve everyone (Kesko 2023;
 S-kaupat 2026a).
 
-Our own product comparisons also showed lower unit prices for the sampled private-label
-crisps (K-Ruoka 2026; S-kaupat 2026b). But I cannot tell from those figures whether
+My own product comparisons also showed lower unit prices for the sampled private-label
+crisps (K-Ruoka 2026a; S-kaupat 2026b). But I cannot tell from those figures whether
 customers buy them because they like the products, because they are cheaper, or simply
-because they are available. That is an important limitation of our research.
+because they are available. That is an important limitation of the research.
 
 Although the article is based on the US market during the pandemic, I still find its
 central question relevant: what makes someone choose a retailer's own brand when
 cheaper prices are no longer the main reason? Recent Finnish research asks the same
-question: in a 2025 survey of 1,197 consumers, price was still the main grocery
-purchase criterion, 63% considered private labels clearly cheaper, and 42% saw no
-quality difference compared with manufacturer brands (PTT 2025). Yet private labels
-held only about a quarter of Finnish grocery sales value in 2016–2023
-(Kilpailu- ja kuluttajavirasto 2025). I think that is a
-more interesting way to look at private labels than simply comparing which products
-cost less.
+question: in a 2025 survey of 1,197 consumers aged 18–79, price was still the main
+grocery purchase criterion, 63% considered private labels more affordable than
+manufacturer brands, and 42% saw no quality difference (PTT 2025). Yet private labels
+held only about a quarter of Finnish grocery sales value — and about a third of sales
+volume — in 2016–2023 (Kilpailu- ja kuluttajavirasto 2025). I think that is a more
+interesting way to look at private labels than simply comparing which products cost
+less.
 
-![Figure 6. Consumer perceptions of private-label vs branded products in Finland (Kuva 6, N=1,197): 63% agree private labels are clearly cheaper; 42% consider quality equal. Source: PTT (2025).](../evidence/screenshots/finnish_research/ptt/ptt_2025_private_label_perceptions-18.png)
+![Figure 8. Consumer perceptions of private-label vs branded products in Finland (Kuva 6; N=1,197, aged 18–79): 63% considered private labels more affordable; 42% considered quality equal. Source: PTT (2025).](../evidence/screenshots/finnish_research/ptt/ptt_2025_private_label_perceptions-18.png)
 
-![Figure 7. Private-label share of Finnish grocery sales 2016–2023 (Kuvio 1): stable at roughly a quarter of sales value. Source: Kilpailu- ja kuluttajavirasto (2025).](../evidence/screenshots/finnish_research/kkv/kkv_2025_private_label_sales_share-19.png)
+![Figure 9. Private-label share of Finnish grocery sales 2016–2023 (Kuvio 1): around a quarter of sales value and around a third of sales volume. Source: Kilpailu- ja kuluttajavirasto (2025).](../evidence/screenshots/finnish_research/kkv/kkv_2025_private_label_sales_share-19.png)
 
-![Figure 8. The article's three-stage private-label maturity model. Source: Begley & McOuat (2020, p. 5).](../evidence/screenshots/mckinsey/mckinsey_2020_maturity_model-5.png)
+![Figure 10. The article's three-stage private-label maturity model. Source: Begley & McOuat (2020, p. 5).](../evidence/screenshots/mckinsey/mckinsey_2020_maturity_model-5.png)
 
 ### References (Part C)
 
 - Begley, S. & McOuat, A. (2020) *Turning private labels into powerhouse brands*. McKinsey & Company, October 2020. Available at: [https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands](https://www.mckinsey.com/industries/retail/our-insights/turning-private-labels-into-powerhouse-brands) (Accessed: 24 November 2026). [PDF copy provided via Itslearning by the lecturer.]
-- Kesko (2026) *K Group's own grocery store brands: Pirkka and K-Menu*. Available at: [https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/](https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/) (Accessed: 24 November 2026).
+- Kesko (2023) *K Group's own grocery store brands: Pirkka and K-Menu*. Available at: [https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/](https://www.kesko.fi/en/company/brands/own-brands/pirkka-and-k-menu/) (Accessed: 24 November 2026).
 - Kilpailu- ja kuluttajavirasto (2025) *Kaupan omat merkit eli private label -tuotteet elintarvikemarkkinoilla*. Tutkimusraportteja 3/2025. Available at: [https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/](https://www.kkv.fi/tutkimus-ja-vaikuttaminen/julkaisut/tutkimusraportit/kaupan-omat-merkit-eli-private-label-tuotteet-elintarvikemarkkinoilla-tutkimusraportteja-3-2025/) (Accessed: 24 November 2026).
-- PTT (2025) *Ruuan hinta ratkaisee – kuluttajien näkökulmia ruuan kulutukseen ja ruokamarkkinoihin*. PTT Raportteja. Available at: [https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/](https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/) (Accessed: 24 November 2026). Consumer survey (n = 1,197), autumn 2025.
+- PTT (2025) *Ruuan hinta ratkaisee – kuluttajien näkökulmia ruuan kulutukseen ja ruokamarkkinoihin*. PTT Raportteja. Available at: [https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/](https://www.ptt.fi/julkaisut/ruuan-hinta-ratkaisee-kuluttajien-nakokulmia-ruuan-kulutukseen-ja-ruokamarkkinoihin/) (Accessed: 24 November 2026). Consumer survey (n = 1,197, aged 18–79), autumn 2025.
 - S-kaupat (2026a) *Omat merkit* [own-brand overview]. Available at: [https://www.s-kaupat.fi/sivu/omat-merkit](https://www.s-kaupat.fi/sivu/omat-merkit) (Accessed: 24 November 2026).
 
-*Dataset sources cited in this part (K-Ruoka 2026; S-kaupat 2026b) are listed in References (Part A).*
+*Dataset sources cited in this part (K-Ruoka 2026a; S-kaupat 2026b) are listed in References (Part A).*
 
 # Part D: Reflection on the assignment as a whole
 
-**What did you learn about segmentation in practice?** Segmentation is easy to
-hypothesise and hard to verify. My predicted central/suburban segments were logically
-tidy, but the only hard evidence — identical Wolt menus (Wolt 2026a; Wolt 2026b) —
-pointed the other way: R-kioski standardises its range for the same convenience needs
-in both locations.
+**Segmentation in practice?** Segmentation is easy to hypothesise and hard to verify.
+My predicted central and suburban segments were logically tidy, but the only hard
+evidence — identical Wolt menus and prices (Wolt 2026a; Wolt 2026b) — pointed the other
+way: R-kioski standardises its delivered range for the same convenience needs in both
+locations.
 
-**Branding, co-branding, private/white labels?** A private label is a strategy, not a
-discount. Kesko's tiered Pirkka family (Kesko 2026), S Group's three brands inside one
-crisp category (S-kaupat 2026a; S-kaupat 2026b), and Lidl's 150+ own labels
-(Kilpailu- ja kuluttajavirasto 2025) are three different answers to what an own brand
-is for. The McKinsey maturity model helped me see them as different levels of ambition
-rather than just interchangeable store brands (Begley & McOuat 2020, p. 5).
+**Branding, co-branding, private/white labels?** The three chains run visibly different
+private-label set-ups: Kesko's tiered Pirkka family (Kesko 2023), S Group's three own
+brands in one crisp category (S-kaupat 2026b), and Lidl's mix of limited-batch snack
+labels and origin-focused ready-meal brands (Lidl 2026c; Lidl 2026d). The McKinsey
+maturity model helped me see these as different levels of ambition (Begley & McOuat
+2020, p. 5). I did not find clear co-branding in my sample; the closest pattern is
+retailers placing own brands and national brands in the same category grid.
 
-**Packaging, shelf placement, in-store advertising?** Digitally, private labels are not
-hidden: both big chains give them filter options and equal grid position with national
-brands, while national brands lean on promotions (Taffel's Plussa multi-buy) to defend
-their position (K-Ruoka 2026; S-kaupat 2026b). Whether physical shelves mirror this
-digital parity is exactly what I could not check.
+**Packaging, shelf placement, advertising in store?** Digitally, private labels are not
+hidden: both big chains offer own-brand filters, and S-kaupat lists own brands in the
+same grid as national brands. At K-Ruoka, promoted national brands led the default
+ordering (K-Ruoka 2026a). Packaging itself I could only see as online product images,
+and physical placement I could not check at all.
 
-**Mystery shopping, observation, web surveys?** Doing this digitally taught me the
-trade-off directly: catalogue data is exact, timestamped and reproducible, but it is
-silent about people. I can state that Xtra is 32.9% cheaper per kg than Taffel
-(S-kaupat 2026b); I cannot state that anyone buys it for that reason.
+**Mystery shopping, observation, web surveys?** Working digitally taught me the
+trade-off directly: catalogue data is exact, timestamped and reproducible, but silent
+about people. I can state that Xtra is 32.9% cheaper per kilogram than the Taffel
+reference (S-kaupat 2026b); I cannot state that anyone buys it for that reason.
 
-**Most interesting or insightful?** The R-kioski price identity across locations —
-convenience priced as a uniform product — and, methodologically, learning that good
-research includes reporting what the method cannot see. If I redid the assignment, I
-would add one real shelf visit per chain: exact digital prices plus physical shelf
-context would answer both halves of the brief.
+**Most interesting or insightful?** The identical R-kioski menus and prices across
+locations, and learning that a method's limits belong in the report. If I redid the
+assignment, I would add one real shelf visit per chain: exact digital prices plus
+physical shelf context would answer both halves of the brief.
 
 *All sources cited in Part D are listed in the reference lists of Parts A–C above; no new sources were used.*
 
@@ -319,4 +324,4 @@ context would answer both halves of the brief.
 
 A narrated presentation (voiceover/video, per the teacher's instruction) is submitted
 separately. It presents the research question, the dataset, the price-gap and R-kioski
-charts, the McKinsey interpretation, and the limitations of the digital method.
+findings, the McKinsey interpretation, and the limitations of the digital method.

@@ -58,17 +58,18 @@ def chart_price_pairs(pairs: pd.DataFrame):
 
 
 def chart_unit_prices(products: pd.DataFrame):
-    """Chart 2: unit price of every sampled snack product, by retailer and brand type."""
-    df = products.sort_values("unit_price_eur_per_kg")
+    """Chart 2: unit price of sampled products — regular listed prices only."""
+    df = products[products["price_type"] == "listed_regular_price"].copy()
+    df = df.sort_values("unit_price_eur_per_kg")
     colors = [PL_COLOR if t == "private_label" else NB_COLOR for t in df["brand_type"]]
     labels = [f"{r.brand} — {r.product_name[:38]}" for r in df.itertuples()]
     fig, ax = plt.subplots(figsize=(9, 6))
     ax.barh(labels, df["unit_price_eur_per_kg"], color=colors)
-    ax.set_xlabel("Unit price (EUR/kg)")
-    ax.set_title("Sampled snack products by unit price (EUR/kg)\n"
-                 "Green = retailer private label, red = national brand (catalogue data, 24 Nov 2026)")
-    for i, (v, dq) in enumerate(zip(df["unit_price_eur_per_kg"], df["data_quality"])):
-        ax.text(v + 0.15, i, f"{v:.2f} ({dq})", va="center", fontsize=8)
+    ax.set_xlabel("Unit price (EUR/kg; milk products EUR/l)")
+    ax.set_title("Sampled products by unit price — regular listed prices\n"
+                 "Green = private label, red = national brand (24 Nov 2026)")
+    for i, v in enumerate(df["unit_price_eur_per_kg"]):
+        ax.text(v + 0.15, i, f"{v:.2f}", va="center", fontsize=8)
     ax.set_xlim(0, df["unit_price_eur_per_kg"].max() + 4)
     fig.tight_layout()
     fig.savefig(OUT / "02_unit_prices_by_product.png", dpi=150)
