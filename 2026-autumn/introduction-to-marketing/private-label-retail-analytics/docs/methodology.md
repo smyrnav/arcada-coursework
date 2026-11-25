@@ -48,7 +48,7 @@ product design and sourcing; organisation and operating model) and the three-sta
 private-label maturity model (optimisation of core assortment → portfolio management →
 sophisticated private-label ownership). See `docs/article_analysis.md`.
 
-## Methodological substitution (disclosed, not hidden)
+## Methodological substitution 
 
 | Original task (group version) | What was done instead |
 |---|---|
